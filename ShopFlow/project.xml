@@ -102,6 +102,10 @@
             <folder name="ImageLoader">
               <file name="ImageLoader.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
             </folder>
+            <file name="Content.DataModels.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="Facets.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="ImageLoader.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="ItemDetails.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
           </folder>
           <file name=".DS_Store" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
           <file name="Configuration.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
