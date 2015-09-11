@@ -24,7 +24,7 @@
 		
 	<% } %>
 		<% _.each(view.facets, function(facet){ %>
-			<% if (view.facets.length > 1) { %>
+		   <% if (view.facets.length > 1) { %>
 			<div class="category-list-header">
 				<span class="category-list-heading">
 					<%= facet.configuration.name %>
@@ -34,6 +34,26 @@
 				</a>
 			</div>
 			<% } %>
+           <%
+           var current_category = view.category
+           ,   facetChilds = facet.values.values
+           ,   categoryChilds = (current_category.categories)? current_category.categories : [];
+
+           if (_.size(categoryChilds) > 0 && !_.isUndefined(facetChilds) && facetChilds.length > 0)
+           {
+               var categoryReference;
+               for(var i = 0; i < facetChilds.length; i++)
+               {
+                    categoryReference = _.where(categoryChilds, {itemid: facetChilds[i].label});
+
+                    if (!_.isUndefined(categoryReference) && categoryReference.length > 0)
+                    {
+                      facetChilds[i].target_url = categoryReference[0].url;
+                    }
+               }
+           }
+
+           %>
 			<%= displayInRows(facet.values.values, categoryCell, 4) %>
 		<% }) %>
 		<div id="banner-section-bottom" class="content-banner banner-section-bottom"></div>

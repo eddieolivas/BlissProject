@@ -3583,7 +3583,7 @@ p.option-label.strong {
 }
 
 .tiles li.active .tile {
-	background: #908f8f;
+	background: initial;
 }
 
 .new-product-review h1 {
@@ -3804,12 +3804,26 @@ a[data-hashtag="#Shop-by-Brand-Products"], a[data-hashtag="#Get-The-Look-Product
 	display: none!important;
 }
 
+a[data-hashtag="#Shop-by-Brand-Products"] + a.dropdown-toggle, a[data-hashtag="#Get-the-Look-Products"] + a.dropdown-toggle, a[data-hashtag="#Style-Library-Products"] + a.dropdown-toggle {
+	display: none!important;
+}
+
 .site-header-main-nav .navbar-inner {
     padding: 0;
 }
 
 .navbar .nav>li>a {
 	padding: 7px 12px 5px;
+}
+
+.facet-well .filters>ul a img {
+    margin-top: 0;
+    width: 30px!important;
+    height: 30px!important;
+    border: initial!important;
+    vertical-align: super;
+    margin-bottom: 0!important;
+    /* min-height: 30px!important; */
 }
 
 /* Non-inventory item page styles -------------------------------------------*/
@@ -4314,6 +4328,11 @@ h2.nonInvItem {
 	
 	.site-header-main-nav.in .dropdown-submenu .dropdown-menu {
 	    padding: 0 0 0 20px;
+	}
+	
+	#my-account-container a.dropdown-toggle {
+		border: none;
+		text-align: left;
 	}
 }
 

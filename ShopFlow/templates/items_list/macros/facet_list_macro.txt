@@ -49,7 +49,7 @@
 						var facetValue = translator.facets[0].value;
 						var url = '';
 						var sub_cat = facetValue.indexOf("/") > -1 ? true : false;
-					    if( sub_cat ) {
+					    if( sub_cat && filter.image != undefined ) {
 					    	facetValue = facetValue.substr(0, facetValue.indexOf("/"));
 					    	url = "/" + facetValue + "/" + filter.url;
 					    	
