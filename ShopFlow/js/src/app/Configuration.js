@@ -362,7 +362,7 @@
 			,	priority: 10
 			,	behavior: 'hierarchical'
 			,	macro: 'facetCategories'
-			,	uncollapsible: true
+			,	uncollapsible: false
 			,	titleToken: '$(0)'
 			,	titleSeparator: ', '
 			}
@@ -374,7 +374,7 @@
 			,	priority: 7
 			,	behavior: 'range'
 			,	macro: 'facetRange'
-			,	uncollapsible: true
+			,	uncollapsible: false
 			,	titleToken: 'Price $(0) - $(1)'
 			,	titleSeparator: ', '
 			,	parser: function (value)
@@ -621,7 +621,7 @@
 				,	priority: 9
 				,	behavior: 'multi'
 				,	macro: 'facetList'
-				,	uncollapsible: true
+				,	uncollapsible: false
 				,	titleToken: '$(0)'
 				,	titleSeparator: ', '
 			}
