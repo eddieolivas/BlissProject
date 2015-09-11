@@ -1,0 +1,190 @@
+<% registerMacro('footer', function (view) {
+	var environment = SC.ENVIRONMENT
+
+	,	show_currency_selector = !view.application.getConfig('notShowCurrencySelector')
+	,	hosts = environment.availableHosts
+	,	languages = environment.availableLanguages
+	,	currencies = environment.availableCurrencies
+
+	,	nav_links = view.application.getConfig('footerNavigation', [])
+	,	current_touchpoint = view.application.getConfig('currentTouchpoint')
+	,	macros = SC.macros;
+%>
+
+<div class="container">
+	<div class="customer-site-settings">
+		<form class="form-inline">
+			<% if (hosts.length) { %>
+				<% if (current_touchpoint === 'home') { %>
+					<%= macros.hostSelector(hosts, environment.currentHostString) %>
+				<% } else { %>
+					<%= macros.hostSelector(hosts, environment.currentLanguage.locale, true) %>
+				<% }%>
+			<% } %>
+			<% if (currencies.length && show_currency_selector) { %>
+				<%= macros.currencySelector(currencies, environment.currentCurrency.code) %>
+			<% } %>
+		</form>
+	</div>
+	
+	<div class="footer-col mobile-newsletter-subscribe">
+		<div class="emailform-div" style="width:225px; /*margin-left:25px;*/">
+
+			<div style="width:225px; float:left; font-family:Arial; font-size:12px; font-weight:bold; padding:0 0 5px 0; color:#908f8f; text-align:left;">SUBSCRIBE TO OUR NEWSLETTER</div>
+		
+			<input type="text" id="new-email" name="email" style="background-image:url(/site/Bliss_home/new_design/bhd-newsletter-signup-box.png); background-repeat:no-repeat; border:0; height:24px; min-height: 24px; padding-left:20px; width:148px;" maxlength="50" value="    your email address" onclick="javascript:select();" onfocus="checkclear(this)">
+		
+			<input type="button" id="email-button" style="float:left; width:55px; height:24px; min-height: 24px; vertical-align:middle; cursor:pointer; background-color:#ffffff; background-image:url(/site/Bliss_home/new_design/bhd-newsletter-signup-button.png); background-repeat:repeat-none; border:0;"> 
+		
+			<script type="text/javascript">
+				jQuery("#email-button").click(function(){
+					var emailString = jQuery("#new-email").val();
+		
+					if((emailString.indexOf("new-email")!=-1) ||
+					  (jQuery("#new-email").val() == ""))
+						document.location = "/Bliss-Home-And-Design-Features-And-Information/Email-Signup?mail=";
+		
+					else if(jQuery("#new-email").val() != "")
+						document.location = "/Bliss-Home-And-Design-Features-And-Information/Email-Signup?mail="+ $("#new-email").val();
+		
+				});
+			</script>
+		</div>
+	</div>
+	
+	<div class="footer-col connect-with-us-container">
+		<div class="connect-with-us">Connect With Us</div>
+		<div style="height:1px; width:215px; color: #a4a4a4; text-align:center; float: left; padding-left:25px;">
+			<div style="float: left; width: 156px; /*height: 5px;*/ border-bottom: 1px solid #D8D9DA; /*margin-bottom: 2px;*/ text-align:center;"></div>
+		</div>
+		<div style="float: left; padding: 0 0 0 0px; text-align:center; width:209px; margin:10px 0 5px;">
+			<a href="http://blog.blisshomeanddesign.com/">
+				<img style="width:209px;" id="xxx_logo_image" src="/site/Bliss_home/new_design/BBDBlogLogo_FooterSitebutton.png">
+			</a>
+		</div>
+		<div style="height:1px; width:215px; color:#A4A4A4; text-align:center; float: left; padding-left:25px;">
+			<div style="float: left; width: 156px; /*height: 5px;*/ border-bottom: 1px solid #D8D9DA; /*margin-bottom: 2px;*/ text-align:center;"></div>
+		</div>
+		<div style="width:185px; float:left; /*margin-left:-43px;*/ padding:10px 0 0 7px; text-align:center;">
+			<div style="text-align:center; width:185px;">
+				<div class="flags footer-flags">
+					<a id="ft-social-fb" class="ft-social-icon" href="http://www.facebook.com/BlissHomeAndDesign" target="_blank">Facebook</a>
+					<a id="ft-social-instagram" class="ft-social-icon" href="http://instagram.com/blisshomeanddesign" target="_blank">Instagram</a>
+					<a id="ft-social-pinterest" class="ft-social-icon" target="_blank" href="http://pinterest.com/blisshomedesign/">Pinterest</a>
+					<a id="ft-social-twitter" class="ft-social-icon social-twitter" target="_blank" href="http://twitter.com/BlissHomeDesign">Twitter</a>
+					<a id="ft-googleplus" class="ft-social-icon" target="_blank" href="https://plus.google.com/b/108114032974613439233/108114032974613439233/posts">Google+</a>
+					<a id="ft-social-houzz" class="ft-social-icon" target="_blank" href="http://www.houzz.com/pro/blisshomeanddesign/bliss-home-and-design">Houzz</a>
+					<a id="ft-social-polyvore" class="ft-social-icon" target="_blank" href="http://blisshomeanddesign.polyvore.com/">Polyvore</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer-col footer-nav col-1">
+		<div style="height:18px; width:155px; color:#A4A4A4; font-family:Times New Roman; font-size:14px; font-weight:bold; text-align:left; float: left; padding-top:2px;">
+			<a style="font-size:13px; font-weight:bold; color:#908f8f;" href="/about-us">OUR STORY</a>
+		</div>
+		<div style="height:18px; width:155px; color:#A4A4A4; font-family:Times New Roman; font-size:14px; font-weight:bold; text-align:left; float:left; padding-top:7px;">
+			<a style="font-size:13px; font-weight:bold; color:#908f8f;" href="/designer-signup">TO THE TRADE</a>
+		</div>
+		<div style="height:18px; width:155px; color:#A4A4A4; font-family:Times New Roman; font-size:14px; font-weight:bold; text-align:left; float:left; padding-top:7px;">
+			<a style="font-size:13px; font-weight:bold; color:#908f8f;" href="#" data-touchpoint="register" data-hashtag="login-register">MY ACCOUNT</a>
+		</div>
+	</div>
+	
+	<div class="footer-col footer-nav col-2">
+		<div style="height:18px; width:175px; color:#A4A4A4; font-family:Times New Roman; font-size:14px; font-weight:bold; text-align:left; float: left; padding-top:2px;">
+			<a style="font-size:13px; font-weight:bold; color:#908f8f;" href="/contact-information">CONTACT</a>
+		</div>
+		<div style="height:18px; width:175px; color:#A4A4A4; font-family:Times New Roman; font-size:14px; font-weight:bold; text-align:left; float:left; padding-top:7px;">
+			<a style="font-size:13px; font-weight:bold; color:#908f8f;" href="/policies-and-procedures">SHIPPING/RETURNS</a>
+		</div>
+	</div>
+	
+	<div class="footer-col footer-nav col-3">
+		<div style="height:18px; width:165px; color:#A4A4A4; font-family:Times New Roman; font-size:14px; font-weight:bold; text-align:left; float: left; padding-top:2px;">
+			<a style="font-size:13px; font-weight:bold; color:#908f8f;" href="/policies-and-procedures">PRIVACY POLICY</a>
+		</div>
+		<div style="height:18px; width:165px; color:#A4A4A4; font-family:Times New Roman; font-size:14px; font-weight:bold; text-align:left; float:left; padding-top:7px;">
+			<a style="font-size:13px; font-weight:bold; color:#908f8f;" href="/press">IN THE PRESS</a>
+		</div>
+	</div>
+	
+	<div class="footer-col newsletter-subscribe">
+		<div class="emailform-div" style="width:225px; /*margin-left:25px;*/">
+			<div class="bgmd">
+			
+			</div>
+		
+			<!-- Begin MailChimp Signup Form -->
+			<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+			<style type="text/css">
+				#mc_embed_signup{background:#f7f7f7; clear:left; font:14px Helvetica,Arial,sans-serif; width: 225px;}
+				#mc_embed_signup form {
+				    padding: 10px 0 10px 0%;
+				}
+				#mc_embed_signup .mc-field-group {width:100%;}
+				#mce-EMAIL {
+					color: #A4A4A4;
+				    font-size: 12px;
+				    font-family: Times New Roman;
+				    font-style: italic;
+				    padding: 0 0 0 10px;
+				}
+			</style>
+			<div id="mc_embed_signup">
+				<div style="width:225px; float:left; font-family:Arial; font-size:12px; font-weight:bold; padding:0 0 5px 0; color:#908f8f; text-align:center;">SUBSCRIBE TO OUR NEWSLETTER</div>
+				<form action="//blisshomeanddesign.us7.list-manage.com/subscribe/post?u=591f1f70e89e7bd9d44928425&amp;id=a684de44b7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				    <div id="mc_embed_signup_scroll">
+						<div class="mc-field-group">
+							<input type="email" name="EMAIL" id="mce-EMAIL" style="background-image:url(/site/Bliss_home/new_design/bhd-newsletter-signup-box.png); background-repeat:no-repeat; border:0; height:24px; padding:0 0 0 20px; width:148px; display:inline-block; float:left;" maxlength="50" placeholder="    your email address" >
+							<input type="submit" value="" name="subscribe" id="mc-embedded-subscribe" style="float:left; width:55px; height:24px; vertical-align:middle; cursor:pointer; background-color:#ffffff; background-image:url(/site/Bliss_home/new_design/bhd-newsletter-signup-button.png); background-repeat:repeat-none; border:0; margin:0; clear: none;">
+						</div>
+						<div id="mce-responses" class="clear">
+							<div class="response" id="mce-error-response" style="display:none"></div>
+							<div class="response" id="mce-success-response" style="display:none"></div>
+						</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					    <div style="position: absolute; left: -5000px;"><input type="text" name="b_591f1f70e89e7bd9d44928425_a684de44b7" tabindex="-1" value=""></div>
+					    <div class="clear"></div>
+				    </div>
+				</form>
+			</div>
+			
+			<!--End mc_embed_signup-->
+		</div>
+	</div>
+	
+	<%= macros.backToTop() %>
+	<div id="banner-footer" class="content-banner banner-footer" data-cms-area="global_banner_footer" data-cms-area-filters="global"></div>
+</div>
+<div class="container copyright-container">
+	<div id="footer-copyright">Copyright 2015 Bliss Home and Design, All Rights Reserved</div>
+</div>
+<script type="text/javascript">
+	jQuery(document).ready( function() {
+		var mobileNavOpen = true;
+			jQuery('.mobile-nav-container').click(function() {					
+					if(mobileNavOpen) {
+						mobileNavOpen = !mobileNavOpen;
+						jQuery('.site-header-main-nav').css("border-top", "1px solid #d8d9da");
+						jQuery('.site-header-main-nav').css("border-bottom", "1px solid #d8d9da");
+	    			}
+	    			else {
+	    				mobileNavOpen = !mobileNavOpen;
+	    				jQuery('.site-header-main-nav').css("border-top", "none");
+	    				jQuery('.site-header-main-nav').css("border-bottom", "none");
+	    			}
+	    	});
+	    	
+	    	if( jQuery(window).width() < 767 ) {
+	    		jQuery('.site-header-main-nav .nav li a').click(function(e) {
+	    			if( e.target.className != 'icon-chevron-down' ) {
+	    				jQuery('.site-header-main-nav').css("border-top", "none");
+	    				jQuery('.site-header-main-nav').css("border-bottom", "none");
+	    			}
+	    		});
+	    	}
+	});
+</script>
+<script type="text/javascript" src="//s3.amazonaws.com/cdn.barilliance.com/blisshomeanddesign.com/cbar.js.php"></script>
+<% }) %>

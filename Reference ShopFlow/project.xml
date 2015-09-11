@@ -1,0 +1,119 @@
+<project info="SuiteCloud IDE generated file, do not edit." setAttributesOnUpdate="false">
+  <folder name="Reference ShopFlow">
+    <folder name="skins">
+      <folder name="standard">
+        <file name="styles.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      </folder>
+    </folder>
+    <folder name="templates">
+      <folder name="footer">
+        <folder name="macros">
+          <file name="footer_navigation.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+        </folder>
+      </folder>
+      <file name="back_to_top_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="breadcrumb_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="category_browse.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="category_cell_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="correlated_items_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="currencies_selector_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="display_in_rows_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="facet_browse.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="facet_categories_list_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="facet_categories_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="facet_color_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="facet_list_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="facet_range_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="faceted_navigation_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="facets_display_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="footer_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="footer_navigation.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="forbidden_error.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="format_payment_method.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="header_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="header_profile_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="header_simple_profile_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="header_top_nav_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="home.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="home_cxm.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="host_selector_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="iframe.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="image_default.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="internal_error.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="item_cell_grid_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="item_cell_list_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="item_cell_option_color_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="item_cell_table_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="item_details.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="item_details_image_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="item_details_option_color_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="item_details_option_dropdown_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="item_details_option_radio_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="item_details_option_text_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="item_details_option_tile_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="item_details_reviews_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="item_details_stock_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="item_image_gallery.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="item_list_display_selector_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="item_list_navigable_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="item_list_show_selector_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="item_list_sort_selector_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="item_list_summary_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="landing_page.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="layout.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="list_header.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="logo_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="merch_cms_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="merchandising_zone_custom_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="merchandising_zone_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="message_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="mini_cart_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="mini_cart_summary_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="modal_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="navigation_tabs_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="page_not_found.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="pagination_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="product_list_control.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="product_list_control_item.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="product_list_control_new_pl.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="product_list_control_single.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="product_list_delete_confirm.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="product_list_details.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="product_list_details_condensed_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="product_list_details_full_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="product_list_details_later.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="product_list_details_later_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="product_list_details_min_quantity_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="product_list_edit_item.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="product_list_list_details_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="product_list_lists.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="product_list_menu.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="product_list_new.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="promocode_form_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="quick_view.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="rating_by_star_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="recently_viewed_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="related_item_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="related_items_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="review_form.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="review_form_confirmation.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="review_form_preview.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="reviews_center_for_item.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="shopping_cart.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="shopping_cart_confirmation_modal.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="shopping_cart_item_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="shopping_cart_option_color_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="shopping_cart_option_default_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="shopping_cart_summary_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="show_item_price_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="show_review_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="site_search_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="social_sharing_icons_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="star_rating_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="templates.config" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="typeahead_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    </folder>
+  </folder>
+</project>
