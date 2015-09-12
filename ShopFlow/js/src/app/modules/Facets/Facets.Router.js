@@ -142,13 +142,30 @@ define('Facets.Router', ['Facets.Views', 'Facets.Helper', 'Facets.Model', 'Categ
 			var current_facets = translator.getAllFacets()
 			,	categories = Categories.getBranchLineFromPath(translator.getFacetValue('category'))
 			, last_category = _.last(categories);
-
+			/* Original code -----------------------------------------
 			if (!_.isUndefined(last_category.categories) && _.size(last_category.categories) > 0) 
 			{
 				return true;
 			} else {
 				return (current_facets.length === 1 && current_facets[0].id === 'category' && categories.length === 1 && _.size(categories[0].categories));	
 			}
+			End original code ----------------------------------------*/
+			
+			/* Code added by Eddie to fix the search issue -----------*/
+			if(last_category != undefined) {
+
+				if (!_.isUndefined(last_category.categories) && _.size(last_category.categories) > 0) 
+				{
+					return true;
+				} else {
+					return (current_facets.length === 1 && current_facets[0].id === 'category' && categories.length === 1 && _.size(categories[0].categories));	
+				}
+				
+			}
+			else {
+				return (current_facets.length === 1 && current_facets[0].id === 'category' && categories.length === 1 && _.size(categories[0].categories));
+			}
+			/* End code added by Eddie to fix the search issue -------*/
 		}
 
 	,	showCategoryPage: function(translator)

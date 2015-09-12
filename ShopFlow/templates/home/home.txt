@@ -7,28 +7,28 @@
 		<div class="left-nav-heading">BY CATEGORY:</div>
 			<ul>
 				<li>
-					<a href="/FURNITURE/">Furniture</a>
+					<a href="/Furniture-Products">Furniture</a>
 				</li>
 				<li>
-					<a href="/LIGHTING/">Lighting</a>
+					<a href="/Lighting-Products">Lighting</a>
 				</li>
 				<li>
-					<a href="/ACCESSORIES/">Accessories</a>
+					<a href="/Accessories-Products">Accessories</a>
 				</li>
 				<li>
-					<a href="/DECOR/">D&eacute;cor</a>
+					<a href="/Decor-Products">D&eacute;cor</a>
 				</li>
 				<li>
-					<a href="/BEDDING/">Bedding</a>
+					<a href="/Bedding-Products">Bedding</a>
 				</li>
 				<li>
-					<a href="/SPA/">Spa</a>
+					<a href="/Bath-Spa-Products">Spa</a>
 				</li>
 				<li>
-					<a href="/KITCHEN-AND-DINING/">Kitchen and Dining</a>
+					<a href="/Kitchen-Dining-Products">Kitchen and Dining</a>
 				</li>
 				<li>
-					<a href="/BABY/">Baby</a>
+					<a href="/Baby-Products">Baby</a>
 				</li>
 			</ul>
 		</div>
@@ -42,22 +42,22 @@
 		<div class="left-nav-heading">FEATURED:</div>
 			<ul>
 				<li>
-	                 <a href="/NEW-ARRIVALS/">New Arrivals</a>
+	                 <a href="/New-Arrivals-Products">New Arrivals</a>
 				</li>
 				<li>
-	                 <a href="/STYLE-LIBRARY/">Style Library</a>
+	                 <a href="/Style-Library-Products">Style Library</a>
 				</li>
 	            <li>
 					<a href="http://blog.blisshomeanddesign.com/" target="_blank">Bliss By Design Blog</a>
 				</li>
 				<li>
-					<a href="/get-the-look"_blank">Get the Look</a>
+					<a href="/Get-The-Look-Products">Get the Look</a>
 				</li>
 				<li>
-					<a href="/ACCESSORIES/Gifts/">Gifting</a>
+					<a href="/Accessories-Products/Gift-Ideas-Accessories">Gifting</a>
 				</li>
 				<li>
-					<a href="http://staging.blisshomeanddesign.com/SHOP-BY-BRAND/">Brands</a>
+					<a href="/Shop-by-Brand-Products">Brands</a>
 				</li>
 			</ul>
 		</div>
@@ -92,24 +92,7 @@
 		<img class="left_nav_divider_img" src="/site/Bliss_home/left-nav-divider.png" height="1" border="0">
 	</div>
 	
-	<div class="left-nav">
-		<div class="left-nav-heading">ARTISANS:</div>
-			<ul>
-				<li>
-					<a href="http://www.blisshomeanddesign.com/Artisans/Nate-Ricketts_2.html">Nate Rickets</a>
-				</li>
-							<li>
-					<a href="http://www.blisshomeanddesign.com/Artisans/Natural-Curiosities_3.html">Natural Curiosities</a>
-				</li>
-				<li>
-					<a href="http://www.blisshomeanddesign.com/Artisans/Jamie-Dietrich.html">Jamie Dietrich</a>
-				</li>
-				<li>
-					<a href="http://www.blisshomeanddesign.com/Artisans/">More...</a>
-				</li>
-			</ul>
-		</div>
-	</div>
+	
 </section>
 
 <section class="home_slider">
@@ -247,31 +230,31 @@
 	<div class="slider slider1">
 		<div class="sliderContent">
 			<div class="item desktop-item">
-				<a href="/Heavy-Metals/"><img src="/site/Bliss_home/HeavyMetalsHomeBanner.jpg" alt="glassware""/></a>
+				<a href="/Style-Library-Products/Metals-Style-Library/Heavy-Metals-Metals"><img src="/site/Bliss_home/HeavyMetalsHomeBanner.jpg" alt="glassware""/></a>
 			</div>
 			<div class="item desktop-item">
-				<a href="/STYLE-LIBRARY/Designer-Series-Gilded-Mirrors/"><img src="/site/Bliss_home/DesignerGildedMirrorHomeBanner.jpg" alt="" "/></a>
+				<a href="/Style-Library-Products/Designer-Picks-Style-Library/Gilded-Mirrors-Designer-Picks"><img src="/site/Bliss_home/DesignerGildedMirrorHomeBanner.jpg" alt="" "/></a>
 			</div>
 			<div class="item desktop-item">
-				<a href="/New-Arrivals-Studio-A/"><img src="/site/Bliss_home/NAStudioA8-11-15HomeBanner.jpg" alt=""/></a>
+				<a href="/New-Arrivals-Studio-A-Products/"><img src="/site/Bliss_home/NAStudioA8-11-15HomeBanner.jpg" alt=""/></a>
 			</div>
 			<div class="item desktop-item">
-				<a href="/STYLE-LIBRARY/Most-Wanted-July/"><img src="/site/Bliss_home/MostWanted8-5-15HomeBanner.jpg" alt="" /></a>
+				<a href="/Style-Library-Products/Bestsellers-Style-Library/August-Bestsellers"><img src="/site/Bliss_home/MostWanted8-5-15HomeBanner.jpg" alt="" /></a>
 			</div>
 			<div class="item desktop-item">
-				<a href="/Decorative-Accents-under-100/"><img src="/site/Bliss_home/DecorAccents$100HomeBanner.jpg" alt="" /></a>
+				<a href="/Decorative-Accents-under-100-Products"><img src="/site/Bliss_home/DecorAccents$100HomeBanner.jpg" alt="" /></a>
 			</div>
 			<div class="item mobile-item">
-				<a href="/Decorative-Accents-under-100/"><img src="/SSP%20Applications/Bliss%20SuiteCommerce/ShopFlow/img/homepage/mobile-slider1.jpg" alt="The Style Library" /></a>
+				<a href="/Style-Library-Products"><img src="/SSP%20Applications/Bliss%20SuiteCommerce/ShopFlow/img/homepage/mobile-slider1.jpg" alt="The Style Library" /></a>
 			</div>
 			<div class="item mobile-item">
-				<a href="/Decorative-Accents-under-100/"><img src="/SSP%20Applications/Bliss%20SuiteCommerce/ShopFlow/img/homepage/mobile-slider2.jpg" alt="Heavy Metal" /></a>
+				<a href="/Style-Library-Products/Designer-Picks-Style-Library/Gilded-Mirrors-Designer-Picks"><img src="/SSP%20Applications/Bliss%20SuiteCommerce/ShopFlow/img/homepage/mobile-slider2.jpg" alt="Heavy Metal" /></a>
 			</div>
 			<div class="item mobile-item">
 				<a href="/Decorative-Accents-under-100/"><img src="/SSP%20Applications/Bliss%20SuiteCommerce/ShopFlow/img/homepage/mobile-slider3.jpg" alt="Beguiling Accents & Decor" /></a>
 			</div>
 			<div class="item mobile-item">
-				<a href="/Decorative-Accents-under-100/"><img src="/SSP%20Applications/Bliss%20SuiteCommerce/ShopFlow/img/homepage/mobile-slider4.jpg" alt="Designer Series Gilded Mirrors" /></a>
+				<a href="/Style-Library-Products/Designer-Picks-Style-Library/Gilded-Mirrors-Designer-Picks"><img src="/SSP%20Applications/Bliss%20SuiteCommerce/ShopFlow/img/homepage/mobile-slider4.jpg" alt="Designer Series Gilded Mirrors" /></a>
 			</div>
 			<div class="item mobile-item">
 				<a href="/Decorative-Accents-under-100/"><img src="/SSP%20Applications/Bliss%20SuiteCommerce/ShopFlow/img/homepage/mobile-slider5.jpg" alt="Subtle and Effortless Design" /></a>
@@ -280,7 +263,7 @@
 	</div>
 	<div class="home_image_vert_spacer" style="float: left; width: 100%; height: 15px; border-bottom: 1px solid #D8D9DA; margin-bottom: 15px;"></div>
 	<div id="home_image_row1_img1">
-		<a href="/Get-The-Look/">
+		<a href="/Get-The-Look-Products">
 			<img class="desktop-box" id="home_image_wide_img" src="/site/Bliss_home/home_page_images/BOX1.jpg">
 			<img class="mobile-box" src="/SSP%20Applications/Bliss%20SuiteCommerce/ShopFlow/img/homepage/mobile-box1.jpg">
 		</a>
@@ -289,7 +272,7 @@
 	
 	<div id="home_image_row">
 		<div id="home_image_narrow_1">
-			<a href="/BABY">
+			<a href="/Baby-Products">
 				<img class="desktop-box" id="home_image_narrow_img" style="width:340px; height:280px;" src="/site/Bliss_home/home_page_images/BOX2.jpg">
 				<img class="mobile-box" src="/SSP%20Applications/Bliss%20SuiteCommerce/ShopFlow/img/homepage/mobile-box2.jpg">
 			</a>
@@ -297,7 +280,7 @@
 	   	<div class="home_image_vert_spacer" style="float:left; width:20px; height:100%; padding-bottom: 35%;"></div>
 	   	<div id="home_image_wide_1"">
 	   		<!-- HOME_IMAGE_WIDE_1_URL -->
-			<a href="/NEW-ARRIVALS/">
+			<a href="/New-Arrivals-Products">
 				<!-- HOME_IMAGE_WIDE_1_IMAGE -->
 				<img class="desktop-box" id="home_image_wide_img" style="width:540px; height:280px; float:left;" src="/site/Bliss_home/home_page_images/BOX3.jpg">
 				<img class="mobile-box" src="/SSP%20Applications/Bliss%20SuiteCommerce/ShopFlow/img/homepage/mobile-box3.jpg">
@@ -308,7 +291,7 @@
 	<div class="home_image_vert_spacer" style="float: left; width: 100%; height: 15px; border-bottom: 1px solid #D8D9DA; margin-bottom: 15px;"></div>
 	
 	<div id="home_image_row3_img1" style="float:left;">
-		<a href="/STYLE-LIBRARY/">
+		<a href="/Style-Library-Products">
 			<img class="desktop-box" id="home_image_wide_img" src="/site/Bliss_home/home_page_images/BOX4.jpg">
 			<img class="mobile-box" src="/SSP%20Applications/Bliss%20SuiteCommerce/ShopFlow/img/homepage/mobile-box4.jpg">
 		</a>
@@ -324,7 +307,7 @@
 	</div>
 	<div style="float:left; height:1px; width:15px;"></div>
 	<div id="home_image_row4_img2" style="float:left;">
-		<a href="/STYLE-LIBRARY/Designer-Series-Gilded-Mirrors/">
+		<a href="/Style-Library-Products/Designer-Picks-Style-Library/Gilded-Mirrors-Designer-Picks">
 			<img class="desktop-box" id="home_image_wide_img" src="/site/Bliss_home/home_page_images/BOX6-designer-picks-homepage-banner_081315.jpg">
 			<img class="mobile-box" src="/SSP%20Applications/Bliss%20SuiteCommerce/ShopFlow/img/homepage/mobile-box6.jpg">
 		</a>
@@ -370,13 +353,13 @@
 	<div class="home_image_vert_spacer" style="float: left; width: 100%; height: 15px; border-bottom: 1px solid #D8D9DA; margin-bottom: 15px;"></div>
 	
 	<div id="home_image_row6_img1" style="float:left;">
-		<a href="/PRESS/">
+		<a href="/press">
 			<img class="desktop-box" id="home_image_wide_img" src="/site/Bliss_home/home_page_images/BOX12.jpg">
 		</a>
 	</div>
 	<div style="float:left; height:1px; width:9px;"></div>
 	<div id="home_image_row6_img2" style="float:left;">
-		<a href="/SHOP-BY-BRAND/">
+		<a href="/Shop-by-Brand-Products">
 			<img class="desktop-box" id="home_image_wide_img" class="shop-brand" src="/site/Bliss_home/home_page_images/BOX13.jpg">
 		</a>
 	</div>
@@ -389,22 +372,22 @@
 		<div class="mobile-featured-heading">FEATURED:</div>
 			<ul>
 				<li>
-	                 <a href="http://staging.blisshomeanddesign.com/NEW-ARRIVALS/">New Arrivals</a>
+	                 <a href="/New-Arrivals-Products">New Arrivals</a>
 				</li>
 				<li>
-	                 <a href="http://staging.blisshomeanddesign.com/STYLE-LIBRARY/">Style Library</a>
+	                 <a href="/Style-Library-Products">Style Library</a>
 				</li>
 	            <li>
 					<a href="http://blog.blisshomeanddesign.com/" target="_blank">Bliss By Design Blog</a>
 				</li>
 				<li>
-					<a href="http://www.blisshomeanddesign.com/get-the-look"_blank">Get the Look</a>
+					<a href="/Get-The-Look-Products">Get the Look</a>
 				</li>
 				<li>
-					<a href="http://staging.blisshomeanddesign.com/ACCESSORIES/Gifts/">Gifting</a>
+					<a href="/Accessories-Products/Gift-Ideas-Accessories">Gifting</a>
 				</li>
 				<li>
-					<a href="http://staging.blisshomeanddesign.com/SHOP-BY-BRAND/">Brands</a>
+					<a href="/Shop-by-Brand-Products">Brands</a>
 				</li>
 			</ul>
 		</div>

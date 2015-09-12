@@ -7,8 +7,18 @@
 	,	has_facets = has_items && model.get('facets').length
 		// Categories are not a real facet, so lets remove those
 	,	applied_facets = translator.cloneWithoutFacetId('category').facets
-	,	category = view.category
-	,	has_categories = category || category.categories;
+	,	category = view.category;
+	/* Original code --------------------------------------
+	,	has_categories = category || category.categories; */
+	
+	/* Code added by Eddie to fix the search issue -------*/
+	if( category != undefined ) {
+		has_categories = category || category.categories;
+	}
+	else {
+		has_categories = false;
+	}
+	/* End code added by Eddie to fix the search issue ---*/
 %>
 <% if (has_categories) { %>
 <div class="well faceted-navigation">

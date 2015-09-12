@@ -115,7 +115,7 @@ define('ItemDetails.Router', function()
 							}
 						}
 
-						view.checkTemplate();
+						//view.checkTemplate();
 						
 						// we first prepare the view
 						view.prepView();
