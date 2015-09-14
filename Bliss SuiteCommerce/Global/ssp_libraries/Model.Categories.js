@@ -69,7 +69,7 @@ Application.defineModel('Category', {
         _.each(categories, function (category) {
 
             if(category.internalid > 0){
-                var category_limited =  _.pick(category, 'itemid','pagetitle','urlcomponent','welcomepagetitle', 'categories', 'internalid', 'storedisplayimage', 'storedisplaythumbnail');
+                var category_limited =  _.pick(category, 'itemid','pagetitle','urlcomponent','welcomepagetitle', 'categories', 'internalid', 'storedisplayimage', 'storedisplaythumbnail', 'storedetaileddescription');
                 category_limited.urlcomponent = category_limited.urlcomponent || category_limited.itemid;
                 category_limited.url = url ? url + '/' + category_limited.urlcomponent : category_limited.urlcomponent;
                 result[category_limited.urlcomponent] = category_limited;
