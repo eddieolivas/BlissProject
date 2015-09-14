@@ -362,7 +362,7 @@
 			,	priority: 10
 			,	behavior: 'hierarchical'
 			,	macro: 'facetCategories'
-			,	uncollapsible: true
+			,	uncollapsible: false
 			,	titleToken: '$(0)'
 			,	titleSeparator: ', '
 			}
@@ -374,7 +374,7 @@
 			,	priority: 7
 			,	behavior: 'range'
 			,	macro: 'facetRange'
-			,	uncollapsible: true
+			,	uncollapsible: false
 			,	titleToken: 'Price $(0) - $(1)'
 			,	titleSeparator: ', '
 			,	parser: function (value)
@@ -541,7 +541,7 @@
 					'Ivory' : '#E6D19C',
 					'Citron Adventurine' : '#EACC96',
 					'Citrus' : '#EBDB84',
-					'Crï¿½me' : '#EBECD2',
+					'Crème' : '#EBECD2',
 					'Pink' : '#EDACB2',
 					'Pale Pink' : '#EEAF9E',
 					'Feather' : '#EEEEEB',
@@ -621,7 +621,7 @@
 				,	priority: 9
 				,	behavior: 'multi'
 				,	macro: 'facetList'
-				,	uncollapsible: true
+				,	uncollapsible: false
 				,	titleToken: '$(0)'
 				,	titleSeparator: ', '
 			}
@@ -712,7 +712,7 @@
 		//    * selector: Macro that will be rendered for selecting the options (Item list and PDP)
 		//    * selected: Macro that will be rendered for the item in the cart (Cart and Cart confirmation)
 		// * showSelectorInList: if true the selector will be rendered in the item list
-		// Be aware that some marcos may require you to configure some exrta options in order to work properly:
+		// Be aware that some marcos may require you to configure some exrta options in  to work properly:
 		// * colors: an map of the label of the color as they key and hexa or an object as the value is required by the itemDetailsOptionColor
 		// We have provided some macros for you to use but you are encouraged to create your own:
 		// For the selector we have created:

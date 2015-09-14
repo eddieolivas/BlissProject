@@ -93,6 +93,8 @@
 									<input type="hidden" name="quantity" id="quantity" value="1">
 							<% } %>
 								<%= itemDetailsStock(model.getStockInfo()) %>
+								<br>
+								<div class="shipping_info"></div>
 							</div>
 
 							<button data-type="add-to-cart" class="btn btn-primary btn-large add-to-cart-btn"<% if (!model.isReadyForCart()) {%> disabled<%}%>>
@@ -157,8 +159,6 @@
 									<li><%= selling_point5 %></li>
 								<% } %>
 								</ul>
-								<br>
-								<div class="shipping_info"></div>
 							</div>
 						</div>
 					</div>
@@ -179,7 +179,10 @@
 
 <script type="text/javascript">	
 
+					var stock_status = '<%=model.get('stockstatusmessagehtml')%>';
 					var qty_available = '<%=model.get('quantityavailable') %>';
+					var drop_ship_item = '<%=model.get('isdropshipitem') %>';
+					var special_order_item = '<%=model.get('isspecialorderitem') %>';
 					var shipping_lead_time = '<%=model.get('custitemitemshippingleadtime') %>';
 
 					if (qty_available > 0) {

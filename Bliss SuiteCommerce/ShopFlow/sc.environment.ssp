@@ -133,7 +133,7 @@ document.documentElement.className = SC.ENVIRONMENT.isTouchEnabled ? 'touch' : '
 /*
 loadScript([
 	'<%= session.getAbsoluteUrl("shopping", 'js/libs/Libraries-014edbbdbca0.js') %>'
-,	'<%= session.getAbsoluteUrl("shopping", 'templates/Templates-014fcccdb78f.js') %>'
-,	'<%= session.getAbsoluteUrl("shopping", 'js/Application-014fbebcd5c8.js') %>'
+,	'<%= session.getAbsoluteUrl("shopping", 'templates/Templates-014f855a27c3.js') %>'
+,	'<%= session.getAbsoluteUrl("shopping", 'js/Application-014f6b8bc991.js') %>'
 ]);
 */
