@@ -6,7 +6,7 @@ define('ItemDetails.View.Extended', ['ItemDetails.View', 'ItemDetails.Model'], f
 
 	 	checkTemplate: function () 
 		{
-			var facets = (this.model.attributes && this.model.attributes.facets)? this.model.attributes.facets : []
+			/*var facets = (this.model.attributes && this.model.attributes.facets)? this.model.attributes.facets : []
 			,	category = _.where(facets, {id: "category"})
 			,	parent_category = (category.length > 0)? category[0].values[0] : undefined
 			,	specialCategories = /(get-the-look)/i
@@ -28,7 +28,7 @@ define('ItemDetails.View.Extended', ['ItemDetails.View', 'ItemDetails.Model'], f
 
 
 
-/*
+
 				var categories = category.values,
 					current_category;
 
@@ -37,8 +37,8 @@ define('ItemDetails.View.Extended', ['ItemDetails.View', 'ItemDetails.Model'], f
 					current_category = categories[i];
 
 
-				}*/
-			}
+				}
+			}*/
 		}
 
 	});
