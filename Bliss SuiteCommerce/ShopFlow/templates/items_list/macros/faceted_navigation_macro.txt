@@ -7,9 +7,12 @@
 	,	has_facets = has_items && model.get('facets').length
 		// Categories are not a real facet, so lets remove those
 	,	applied_facets = translator.cloneWithoutFacetId('category').facets
-	,	category = view.category;
+	,	category = view.category
+	,   breadcrumb_values = view.getBreadcrumb()
+	,	shopby = (breadcrumb_values && breadcrumb_values.length > 1 && breadcrumb_values[1])? breadcrumb_values[1].text : category.itemid;
+
 	/* Original code --------------------------------------
-	,	has_categories = category || category.categories; */
+	,	has_categories = category || category.categories*/
 	
 	/* Code added by Eddie to fix the search issue -------*/
 	if( category != undefined ) {
@@ -23,7 +26,7 @@
 <% if (has_categories) { %>
 <div class="well faceted-navigation">
 	<div class="well-header facet-list-header">
-		<%= _('Shop $(0)').translate(category.itemid) %>
+		<%= _('Shop $(0)').translate(shopby) %>
 	</div>
 	<div class="well-body">
 		<div data-type="facet" data-facet-id="category"></div>

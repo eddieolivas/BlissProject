@@ -1,3 +1,7 @@
+<% 
+	var breadcrumb_values = view.getBreadcrumb()
+	,	shopby = (breadcrumb_values && breadcrumb_values.length > 1 && breadcrumb_values[1])?  breadcrumb_values[1].text : view.category.itemid;
+%>
 <div class="view-header" itemscope itemtype="http://schema.org/WebPage">
 	<%= breadcrumb(view.getBreadcrumb()) %>
 </div>
@@ -7,7 +11,7 @@
 			<div class="well-header facet-list-header">
 				<div id="banner-left-top" class="content-banner banner-left-top"></div>
 				<h1 class="facet-list-heading">
-					<%= _('Shop $(0)').translate(view.category.itemid) %>
+					<%= _('Shop $(0)').translate(shopby) %>
 				</h1>
 			</div>
 			<div class="well-body">
