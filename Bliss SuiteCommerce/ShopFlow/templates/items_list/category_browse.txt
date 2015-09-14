@@ -23,7 +23,6 @@
 		<div id="banner-section-top" class="content-banner banner-section-top"><img src="<%= view.category.storedisplayimage %>" alt="<%= view.category.itemid %>" /></div>
 		
 	<% } %>
-	<% console.log(view.category.storedetaileddescription) %>
 	<% if (view.category.storedetaileddescription) { %> 
 		<h1><%= view.category.storedetaileddescription %></h1>
 	<% } %>
