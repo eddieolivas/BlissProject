@@ -169,8 +169,8 @@ if (!SC.isCrossOrigin())
 	// to the sc.environment.ssp (Moderate cacheing) or to the sc.user.environment.ssp (No cache but less performant)
 	loadScript([
 		'<%= session.getAbsoluteUrl("shopping", 'js/libs/Libraries-014edbbdbca0.js') %>'
-	,	'<%= session.getAbsoluteUrl("shopping", 'templates/Templates-014fcccdb78f.js') %>'
-	,	'<%= session.getAbsoluteUrl("shopping", 'js/Application-014fbebcd5c8.js') %>'
+	,	'<%= session.getAbsoluteUrl("shopping", 'templates/Templates-014f855a27c3.js') %>'
+	,	'<%= session.getAbsoluteUrl("shopping", 'js/Application-014f6b8bc991.js') %>'
 	// ,	'/cms/1/cms.js'
 	]);
 
@@ -183,7 +183,7 @@ if (!SC.isCrossOrigin())
 	}
 }
 </script>
-<link rel="stylesheet" href="<%= session.getAbsoluteUrl('shopping', 'skins/standard/Styles-014fbdc24a47.css') %>">
+<link rel="stylesheet" href="<%= session.getAbsoluteUrl('shopping', 'skins/standard/Styles-014f858da4ab.css') %>">
 <% if (typeof(release_metadata) != 'undefined') { %>
 <!-- <%= JSON.stringify(release_metadata) %> -->
 <% } %>
