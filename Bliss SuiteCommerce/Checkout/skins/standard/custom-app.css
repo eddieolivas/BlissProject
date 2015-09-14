@@ -1,0 +1,154 @@
+/*! Eddie's additions ------------------------------------------------*/
+ 
+ body {
+ 	font-family: 'Arial';
+ 	color: #908f8f;
+ }
+ 
+ a {
+ 	color: #908f8f;
+ }
+ 
+ a:hover {
+ 	color: #A4A4A4;
+ 	text-decoration: none;
+ }
+ 
+ h1, h2, h3, h4, legend {
+ 	font-family: 'Times New Roman';
+ 	color: #908f8f;
+ }
+ 
+ .list-sub-header {
+ 	color: #908f8f;
+ }
+ 
+ .status {
+ 	color: #777;
+ }
+ 
+ .look-link, .btn-link, .btn-link:hover, .btn-link:focus, .list-row .id-record {
+ 	color: #908f8f;
+ }
+ 
+ 
+ 
+ .text-highlight, .alert, .alert h4 {
+ 	color: #000;
+ }
+ 
+ .btn-primary {
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    background-color: #94bfbb;
+    background-image: -moz-linear-gradient(top, #94bfbb, #94bfbb);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#94bfbb), to(#94bfbb));
+    background-image: -webkit-linear-gradient(top, #94bfbb, #94bfbb);
+    background-image: -o-linear-gradient(top, #94bfbb, #94bfbb);
+    background-image: linear-gradient(to bottom, #94bfbb, #94bfbb);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#94bfbb', endColorstr='#94bfbb', GradientType=0);
+    border-color: #94bfbb #94bfbb #94bfbb;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+ 
+ .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled], .btn-primary {
+ 	background-color: #94bfbb;
+ 	text-transform: uppercase;
+ }
+ 
+ .list-row:hover .id-record {
+ 	color: #A4A4A4;
+ }
+ 
+ .wizard-step-link a {
+ 	color: #908f8f;
+ }
+ 
+ .checkout-cart-summary-header {
+    background-color: #ddd;
+    background-image: -moz-linear-gradient(top,#eee,#e1e1e1);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#eee));
+    background-image: -webkit-linear-gradient(top,#fff,#eee);
+    background-image: -o-linear-gradient(top,#fff,#eee);
+    background-image: linear-gradient(to bottom,#fff,#eee);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffeeeeee',endColorstr='#ffe1e1e1',GradientType=0);
+    border: #eaeaea 1px solid;
+    border-bottom-width: 0;
+    padding: 4.5px 18px;
+}
+
+.lead-price {
+	color: #848484;
+}
+
+.cart-summary-subtotal, .cart-summary-total {
+	border-top: #908f8f 4px solid
+}
+
+.step-header h1, .step-header h2, .step-header h3, .step-header h4, .step-header h5, .step-header h6 {
+	color: #848484;
+}
+
+.section-header {
+	font-family: 'Times New Roman';
+	color: #908f8f;
+}
+
+input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:focus {
+	border-color: #646464;
+}
+
+.well {
+	color: #908f8f;	
+}
+
+.alert {
+	color: #646464;
+}
+
+h3.alert-heading {
+    color: #646464;
+}
+
+.confirmation-button-container {
+    padding-top: 12px;
+}
+
+a.btn.btn-secondary {
+    color: #908f8f;
+}
+
+b.credit-card-icon {
+    margin-bottom: -10px;
+    display: block;
+}
+
+.wizard-step-link a {
+    text-transform: none;
+}
+
+a.btn {
+    color: #908f8f;
+}
+
+a.pull-right.btn.continue-shopping.btn-primary {
+    color: #FFF;
+    text-shadow: none;
+}
+
+button.btn.btn-large.pull-right.btn-back {
+    margin-right: 20px;
+}
+
+a.btn.edit, .shopping-cart-summary .continue-shopping, button.btn.btn-expanded.remove, button.btn.continue-shopping, button.btn.dropdown-toggle.show-wishlist, button.btn.pull-left.btn-expanded, .header-expander a, button.btn.new-product-list-btn.btn-expanded {
+	color: #908f8f;
+}
+
+.header-expander a {
+	color: #908f8f;
+}
+ 
+ /* End Eddie's additions --------------------------------------------*/

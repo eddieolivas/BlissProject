@@ -1,0 +1,13 @@
+<% registerMacro('simplifiedFooter', function (view) { %>
+        <style>
+        #site-footer {
+                 background-color: #FFFFFF!important;
+                 border-top: 1px solid #d8d9da!important;
+                 padding-top: 15px;
+        }
+</style>
+        <div class="container copyright-container">
+	         <div id="footer-copyright">Copyright 2015 Bliss Home and Design, All Rights Reserved</div>
+        </div>
+	<%= SC.macros.backToTop() %>
+<% }) %>
