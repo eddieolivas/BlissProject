@@ -157,14 +157,10 @@ define('Facets.Router', ['Facets.Views', 'Facets.Helper', 'Facets.Model', 'Categ
 				if (!_.isUndefined(last_category.categories) && _.size(last_category.categories) > 0) 
 				{
 					return true;
-				} else {
-					return (current_facets.length === 1 && current_facets[0].id === 'category' && categories.length === 1 && _.size(categories[0].categories));	
-				}
-				
+				} 
 			}
-			else {
-				return (current_facets.length === 1 && current_facets[0].id === 'category' && categories.length === 1 && _.size(categories[0].categories));
-			}
+			
+			return (current_facets.length === 1 && current_facets[0].id === 'category' && categories.length === 1 && _.size(categories[0].categories));
 			/* End code added by Eddie to fix the search issue -------*/
 		}
 
