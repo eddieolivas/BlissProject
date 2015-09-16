@@ -105,6 +105,7 @@
 					<% } %>
 					<div data-type="product-lists-control" style="margin-bottom: 9px !important; display:inline-block"></div>
 					<div data-type="alert-placeholder"></div>
+					<div class="promo_message"><%= model.get('custitem_item_promo_msg') %></div>
 				</div>
 				<div class="well-footer">
 					<% if (view.application.getConfig('hover_pin_it_button').enable_pin_it_button) { %>

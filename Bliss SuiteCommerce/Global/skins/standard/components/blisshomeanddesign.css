@@ -3483,18 +3483,15 @@ ul.selling_points {
 
 div#banner-section-top {
     margin-bottom: 20px;
+    text-align: center
 }
 
 div#banner-section-top img {
-    width: 100%;
+    width: initial;
 }
 
 .item.mobile-item {
 	display: none;
-}
-
-.sliderBullets {
-    display: none!important;
 }
 
 .mobile-box {
@@ -3584,6 +3581,7 @@ p.option-label.strong {
 
 .tiles li.active .tile {
 	background: initial;
+	color: #908f8f;
 }
 
 .new-product-review h1 {
@@ -3826,6 +3824,10 @@ a[data-hashtag="#Shop-by-Brand-Products"] + a.dropdown-toggle, a[data-hashtag="#
     /* min-height: 30px!important; */
 }
 
+a[href="/Style-Library-Products/Test-Category-Styles"], a[href="/Get-The-Look-Products/Test-category"] {
+    display: none!important;
+}
+
 /* Non-inventory item page styles -------------------------------------------*/
 
 .view-body.span10 {
@@ -3854,7 +3856,9 @@ h2.nonInvItem {
     line-height: 18px;
 }
 
-
+.sliderBullets a:nth-child(5), .sliderBullets a:nth-child(6), .sliderBullets a:nth-child(7), .sliderBullets a:nth-child(8), .sliderBullets a:nth-child(9) {
+	display: none;
+}
 
 /* End Non-inventory item page style ----------------------------------------*/
 
@@ -4294,7 +4298,7 @@ h2.nonInvItem {
 		padding: 0;
 	}
 		
-	.site-header-main-nav .nav>li {
+	.site-header-main-nav .nav>li:first-child {
 		padding-top: 10px;
 	}
 	
@@ -4333,6 +4337,10 @@ h2.nonInvItem {
 	#my-account-container a.dropdown-toggle {
 		border: none;
 		text-align: left;
+	}
+	
+	.sliderBullets {
+		display: none!important;
 	}
 }
 

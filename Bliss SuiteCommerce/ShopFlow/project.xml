@@ -7,6 +7,57 @@
       <folder name="Category Banners">
         <file name="uttermost-emrick-writing-desk-M.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       </folder>
+      <folder name="color_swatches">
+        <file name="Aqua-Gray.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Brown-Crystal.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Butter-Gold.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Butter-White.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Cafe-White.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Canary-White.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Charcoal-White.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Crystal-Silver.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Gold-Beige.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Gold-Crystal.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Gold-Turquoise.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Grey-White.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Ink-Platinum.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="KeyLime-White.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Khaki-White.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Mandarin-White.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Mocha-White.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Natural-Crystal.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Natural-White.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Oatmeal-Ink.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Oatmeal-Ocean.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Onyx-White.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Pink-Beige.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Pink-Gold.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="SailorBlue-White.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Seafoam-White.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Silver-Crystal.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Sprout-White.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="White-Beige.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="White-Bronze.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="White-Butter.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="White-Cafe.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="White-Charcoal.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="White-Coral.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="White-Gold.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="White-Green.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="White-GunMetal.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="White-KeyLime.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="White-Lilac-Multi.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="White-Mandarin.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="White-Mocha.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="White-Natural.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="White-Onyx.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="White-SailorBlue.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="White-Seafoam.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="White-Silver.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="White-Sky.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="White-Turquoise.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="White-White.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      </folder>
       <folder name="homepage">
         <file name="logo_header.png" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
         <file name="mobile-box1.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
@@ -68,6 +119,7 @@
       <file name="Twitter_HeaderSiteButton26x26.png" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="bhd-newsletter-signup-box.png" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="bhd-newsletter-signup-button.png" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="black.gif" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="favicon.ico" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="glyphicons-halflings.png" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="logo_header.png" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
@@ -87,6 +139,10 @@
             <folder name="modules">
               <folder name="Facets">
                 <file name="Facets.Views.Extended.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+                <file name="Views-Extended.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              </folder>
+              <folder name="ItemDetails">
+                <file name="ItemDetails.View.Extended.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
               </folder>
             </folder>
             <file name="Configuration.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
@@ -99,8 +155,14 @@
             <folder name="Content">
               <file name="Content.DataModels.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
             </folder>
+            <folder name="Facets">
+              <file name="Facets.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
             <folder name="ImageLoader">
               <file name="ImageLoader.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="ItemDetails">
+              <file name="ItemDetails.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
             </folder>
             <file name="Content.DataModels.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
             <file name="Facets.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
@@ -117,6 +179,7 @@
       <file name="Application-014f51b18bda.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="Application-014f51fb11ef.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="Application-014f6b8bc991.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="Application-014fd735d53a.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="Configuration.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="Facets.Views.Extended.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="ImageLoader.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
@@ -131,8 +194,11 @@
         <file name="Styles-014f4924898e.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
         <file name="Styles-014f858a67c3.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
         <file name="Styles-014f858da4ab.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Styles-014fd34b3418.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Styles-014fd3504597.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
         <file name="combiner.config" hideInBundle="false" isOnline="false" textFileEncoding="_utf8"/>
         <file name="current-css.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="press.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       </folder>
       <file name="Styles-014f4924898e.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="combiner.config" hideInBundle="false" isOnline="false" textFileEncoding="_utf8"/>
@@ -213,6 +279,9 @@
       <folder name="item_details">
         <file name="item_details.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
           <altTagCaption>product_details_tmpl</altTagCaption>
+        </file>
+        <file name="item_details_special.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>product_details_special_tmpl</altTagCaption>
         </file>
         <file name="quick_view.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
           <altTagCaption>quick_view_tmpl</altTagCaption>
@@ -354,6 +423,7 @@
       <file name="Templates-014f51c68062.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="Templates-014f51f7113b.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="Templates-014f855a27c3.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="Templates-014fd79cda07.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="category_cell_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
         <altTagCaption>macro</altTagCaption>
       </file>

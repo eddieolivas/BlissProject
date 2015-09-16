@@ -10,4 +10,5 @@
 	         <div id="footer-copyright">Copyright 2015 Bliss Home and Design, All Rights Reserved</div>
         </div>
 	<%= SC.macros.backToTop() %>
+<script type="text/javascript" src="//s3.amazonaws.com/cdn.barilliance.com/blisshomeanddesign.com/cbar.js.php"></script>
 <% }) %>

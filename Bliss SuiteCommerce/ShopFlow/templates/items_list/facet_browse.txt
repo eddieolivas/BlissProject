@@ -59,7 +59,6 @@
 		<meta itemprop="name" content="<%- view.getTitle() %>">
 		<% if ( window.location.href.indexOf("Get-The-Look-Products") > -1 || window.location.href.indexOf("Style-Library-Products") > -1 ) { %>
 			<div id="banner-section-top" class="content-banner banner-section-top"><img src="<%= view.category.storedisplayimage %>" alt="<%= view.category.itemid %>" /></div>
-		
 		<% } %>
 		<% if ( !(window.location.href.indexOf("Get-The-Look-Products") > -1) && !(window.location.href.indexOf("Style-Library-Products") > -1) ) { %>
 		<header>

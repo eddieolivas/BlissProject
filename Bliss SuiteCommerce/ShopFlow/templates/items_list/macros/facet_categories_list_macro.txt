@@ -4,7 +4,8 @@
 		<%
 			var has_sub = item.categories && _.values(item.categories).length
 			,	sub_list_id = _.uniqueId('facetSubList_')
-			,	value = options.url_memo ? options.url_memo + '/' + item.urlcomponent : item.urlcomponent
+			,	is_sub = options.selected.indexOf('/') != -1
+			,	value = options.url_memo && is_sub ? options.url_memo + '/' + item.urlcomponent : item.urlcomponent
 			,	is_selected = options.selected === value
 			,	is_active = is_selected || (options.selected && ~options.selected.indexOf(value + '/'));
 		%>

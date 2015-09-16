@@ -1,2 +1,3 @@
 User-agent: *
-Disallow: /
+Disallow: /Get-The-Look-Products/Test-category
+Disallow: /Style-Library-Products/Test-Category-Styles

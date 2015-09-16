@@ -8,7 +8,6 @@
 <!DOCTYPE html>
 <html <%= Language ? 'lang="' + Language.replace('_', '-')+ '"' : '' %>>
 <head>
-<meta name="robots" content="noindex,nofollow">
 <link rel="shortcut icon" href="<%= session.getAbsoluteUrl("shopping", "img/favicon.ico") %>" />
 
 <script>
@@ -86,6 +85,28 @@ if (!SC.isPageGenerator())
 	document.write('<link rel="prefetch" href="' + prefetch_url + '">');
 	document.write('<link rel="dns-prefetch" href="' + prefetch_url + '">');
 }
+</script>
+<script type="text/javascript">
+    if(typeof ROITracker==='undefined'){window.ROIStorage={};ROIStorage.q=[];window.ga=function(){ROIStorage.q.push(arguments)};var ga=window.ga;window.ga.q=window.ga.q||[];ROIStorage.roiq=[];ROIStorage.analyticsJsNotLoaded=true;window.ga.q.push([function(){var e;ROIStorage.realGa=window.ga;ROIStorage.analyticsJsNotLoaded=false;window.ga=function(){if(typeof arguments[0]==='function'){ROIStorage.realGa(arguments)}else{ROIStorage.q.push(arguments)}};ROIStorage.roiq.push=function(){ROIStorage.realGa.apply(window,arguments)};for(e=0;e<ROIStorage.roiq.length;e+=1){ROIStorage.realGa.call(window,ROIStorage.roiq[e])}}])}ROIStorage.gaq=ROIStorage.gaq||[];window._gaq={push:function(){var e;for(e=0;e<arguments.length;e++){ROIStorage.gaq.push(arguments[e])}}};var _gaq=window._gaq;ROIStorage.gaq=ROIStorage.gaq||[];window._gat={trackingObjects:{},_createTracker:function(e,t){return new _gat.Tracker(e,t)},_getTracker:function(e){return _gat._createTracker(e)},_getTrackerByName:function(e){var e=e||'';if(_gat.trackingObjects.hasOwnProperty(e)){return _gat.trackingObjects[e]}return _gat._createTracker('UA-XXXXX-X',e)},_anonymizeIp:function(){ROIStorage.gaq.push('_gat._anonymizeIp')},_forceSSL:function(){ROIStorage.gaq.push('_gat._forceSSL')},_getPlugin:function(){ROIStorage.gaq.push('_gat._getPlugin')},Tracker:function(e,t){function u(e){return function(){if(s){e=s+'.'+e}var t=Array.prototype.slice.call(arguments,0);t.unshift(e);ROIStorage.gaq.push(t)}}var n,r,i=['_addDevId','_addEventListener','_addIgnoredOrganic','_addIgnoredRef','_addItem','_addOrganic','_addTrans','_clearIgnoredOrganic','_clearIgnoredRef','_clearOrganic','_clearTrans','_clearXKey','_clearXValue','_cookiePathCopy','_createEventTracker','_createXObj','_deleteCustomVar','_get','_getAccount','_getClientInfo','_getDetectFlash','_getDetectTitle','_getLinkerUrl','_getLocalGifPath','_getName','_getPlugin','_getServiceMode','_getVersion','_getVisitorCustomVar','_getXKey','_getXValue','_initData','_link','_linkByPost','_removeEventListener','_sendXEvent','_set','_setAccount','_setAllowAnchor','_setAllowHash','_setAllowLinker','_setAutoTrackOutbound','_setCampCIdKey','_setCampContentKey','_setCampIdKey','_setCampMediumKey','_setCampNOKey','_setCampNameKey','_setCampSourceKey','_setCampTermKey','_setCampaignCookieTimeout','_setCampaignTrack','_setClientInfo','_setCookiePath','_setCookiePersistence','_setCookieTimeout','_setCustomVar','_setDetectFlash','_setDetectTitle','_setDomainName','_setHrefExamineLimit','_setLocalGifPath','_setLocalRemoteServerMode','_setLocalServerMode','_setMaxCustomVariables','_setNamespace','_setPageGroup','_setReferrerOverride','_setRemoteServerMode','_setSampleRate','_setSessionCookieTimeout','_setSessionTimeout','_setSiteSpeedSampleRate','_setTrackOutboundSubdomains','_setTrans','_setTransactionDelim','_setVar','_setVisitorCookieTimeout','_setXKey','_setXValue','_trackEvent','_trackPageLoadTime','_trackPageview','_trackSocial','_trackTiming','_trackTrans','_visitCode'];var s=t||'';var o=e||'UA-XXXXX-X';for(n=0;n<i.length;n++){r=i[n];this[r]=u(r)}_gat.trackingObjects[s]=this}};var _gat=window._gat;
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://9af2b5a2681fd4041fc3-747cd66bf2f0a527a8af8d2b01a0cd13.ssl.cf2.rackcdn.com/gate.js' : 'http://2e529a3d4956c47fc2c3-747cd66bf2f0a527a8af8d2b01a0cd13.r19.cf2.rackcdn.com/gate.js');
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32592647-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 </script>
 
 </head>
@@ -169,8 +190,8 @@ if (!SC.isCrossOrigin())
 	// to the sc.environment.ssp (Moderate cacheing) or to the sc.user.environment.ssp (No cache but less performant)
 	loadScript([
 		'<%= session.getAbsoluteUrl("shopping", 'js/libs/Libraries-014edbbdbca0.js') %>'
-	,	'<%= session.getAbsoluteUrl("shopping", 'templates/Templates-014f855a27c3.js') %>'
-	,	'<%= session.getAbsoluteUrl("shopping", 'js/Application-014f6b8bc991.js') %>'
+	,	'<%= session.getAbsoluteUrl("shopping", 'templates/Templates-014fd79cda07.js') %>'
+	,	'<%= session.getAbsoluteUrl("shopping", 'js/Application-014fd735d53a.js') %>'
 	// ,	'/cms/1/cms.js'
 	]);
 
@@ -183,7 +204,7 @@ if (!SC.isCrossOrigin())
 	}
 }
 </script>
-<link rel="stylesheet" href="<%= session.getAbsoluteUrl('shopping', 'skins/standard/Styles-014f858da4ab.css') %>">
+<link rel="stylesheet" href="<%= session.getAbsoluteUrl('shopping', 'skins/standard/Styles-014fd3504597.css') %>">
 <% if (typeof(release_metadata) != 'undefined') { %>
 <!-- <%= JSON.stringify(release_metadata) %> -->
 <% } %>
