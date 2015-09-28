@@ -16,14 +16,13 @@
 				<div class="container">
 					<ul class="nav pull-right">
 						<li id="top-phone-number"><a href="tel:866-312-5610">(866) 312-5610</a></li>
-						<%= macros[application.getConfig('profileMacro')](application) %>
 						<li>
 							<a href="#" data-touchpoint="<%= has_cart_router ? current_touchpoint : 'viewcart' %>" data-hashtag="#cart" class="mini-cart-summary">
 								<%= macros.miniCartSummary(cart.getTotalItemCount(), is_loading) %>
 							</a>
 						</li>
 					</ul>
-					<div class="cbar_banner" id="cbar_banner_942829388" rule_id="5377" style="z-index: 1000000000; width: auto; height: auto; display: block; margin: 0; position: relative; visibility: visible;">
+					<div class="cbar_banner" id="cbar_banner_942829388" rule_id="5377" style="z-index: 0; width: auto; height: auto; display: block; margin: 0; position: relative; visibility: visible;">
 						<img src="//s3.amazonaws.com/userimages.barilliance.com/b/59822_bhd_firsttimevisitor_homepage_banner_03_021114.jpg" style="border:none; ">
 					</div>
 				</div>

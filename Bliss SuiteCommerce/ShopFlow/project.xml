@@ -171,6 +171,10 @@
           </folder>
           <file name=".DS_Store" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
           <file name="Configuration.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="Content.DataModels.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="Facets.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="ImageLoader.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="ItemDetails.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
         </folder>
         <file name=".DS_Store" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       </folder>
@@ -210,6 +214,7 @@
           <file name="footer_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
             <altTagCaption>macro</altTagCaption>
           </file>
+          <file name="footer_macro2.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
           <file name="footer_navigation.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
             <altTagCaption>macro</altTagCaption>
           </file>
@@ -217,16 +222,32 @@
         <file name="footer_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
           <altTagCaption>macro</altTagCaption>
         </file>
+        <file name="footer_macro2.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
         <file name="footer_navigation.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
           <altTagCaption>macro</altTagCaption>
         </file>
       </folder>
       <folder name="globals">
         <folder name="macros">
+          <file name="show_item_price_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
           <file name="social_sharing_icons_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
             <altTagCaption>macro</altTagCaption>
           </file>
+          <file name="star_rating_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
         </folder>
+        <file name="page_not_found.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>page_not_found_tmpl</altTagCaption>
+        </file>
+        <file name="show_item_price_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>macro</altTagCaption>
+        </file>
+        <file name="social_sharing_icons_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>macro</altTagCaption>
+        </file>
       </folder>
       <folder name="header">
         <folder name="macros">
@@ -424,6 +445,10 @@
       <file name="Templates-014f51f7113b.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="Templates-014f855a27c3.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="Templates-014fd79cda07.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="Templates-014fe1b3328f.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="category_browse.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+        <altTagCaption>category_browse_tmpl</altTagCaption>
+      </file>
       <file name="category_cell_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
         <altTagCaption>macro</altTagCaption>
       </file>
@@ -433,6 +458,9 @@
       </file>
       <file name="display_categories_menu_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
         <altTagCaption>macro</altTagCaption>
+      </file>
+      <file name="facet_browse.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+        <altTagCaption>facet_browse_tmpl</altTagCaption>
       </file>
       <file name="facet_categories_list_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
         <altTagCaption>macro</altTagCaption>
@@ -458,6 +486,7 @@
       <file name="footer_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
         <altTagCaption>macro</altTagCaption>
       </file>
+      <file name="footer_macro2.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="footer_navigation.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
         <altTagCaption>macro</altTagCaption>
       </file>
@@ -494,6 +523,9 @@
       <file name="item_details.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
         <altTagCaption>product_details_tmpl</altTagCaption>
       </file>
+      <file name="item_details_special.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+        <altTagCaption>product_details_special_tmpl</altTagCaption>
+      </file>
       <file name="item_list_display_selector_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
         <altTagCaption>macro</altTagCaption>
       </file>
@@ -518,8 +550,38 @@
       <file name="navigation_tabs_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
         <altTagCaption>macro</altTagCaption>
       </file>
+      <file name="page_not_found.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+        <altTagCaption>page_not_found_tmpl</altTagCaption>
+      </file>
+      <file name="promocode_form_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+        <altTagCaption>macro</altTagCaption>
+      </file>
       <file name="quick_view.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
         <altTagCaption>quick_view_tmpl</altTagCaption>
+      </file>
+      <file name="reviews_center_for_item.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+        <altTagCaption>reviews_center_for_item_tmpl</altTagCaption>
+      </file>
+      <file name="shopping_cart.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+        <altTagCaption>shopping_cart_tmpl</altTagCaption>
+      </file>
+      <file name="shopping_cart_confirmation_modal.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+        <altTagCaption>shopping_cart_confirmation_modal_tmpl</altTagCaption>
+      </file>
+      <file name="shopping_cart_item_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+        <altTagCaption>macro</altTagCaption>
+      </file>
+      <file name="shopping_cart_option_color_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+        <altTagCaption>macro</altTagCaption>
+      </file>
+      <file name="shopping_cart_option_default_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+        <altTagCaption>macro</altTagCaption>
+      </file>
+      <file name="shopping_cart_summary_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+        <altTagCaption>macro</altTagCaption>
+      </file>
+      <file name="show_item_price_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+        <altTagCaption>macro</altTagCaption>
       </file>
       <file name="site_search_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
         <altTagCaption>macro</altTagCaption>

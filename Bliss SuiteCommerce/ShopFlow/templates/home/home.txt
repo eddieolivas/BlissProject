@@ -227,100 +227,117 @@ pauseOnHover: true
 <div class="sliderContent">
 <div class="item desktop-item">
 <!--SLIDER 1 DESKTOP------------------------------>
-<a href="/Style-Library-Products/Metals-Style-Library/Heavy-Metals-Metals"><img src="/site/Bliss_home/HeavyMetalsHomeBanner.jpg" alt="glassware""/></a>
+<a href="/Style-Library-Products/Seasons-Style-Library/Fall-Inspired-Accents-Seasons"><img src="/SCA Site Images/Homepage Slider/Desktop/DESK-FallAccentsHomeBanner.jpg" alt="" /></a>
 </div>
 <div class="item desktop-item">
 <!--SLIDER 2 DESKTOP------------------------------>
-<a href="/Style-Library-Products/Designer-Picks-Style-Library/Gilded-Mirrors-Designer-Picks"><img src="/site/Bliss_home/DesignerGildedMirrorHomeBanner.jpg" alt="" "/></a>
+<a href="/Style-Library-Products/The-Explorer-Style-Library/Mediterranean-Inspirations-The-Explorer"><img src="/SCA Site Images/Homepage Slider/Desktop/DESK-MediterraneanHomeBanner.jpg" alt="" /></a>
 </div>
 <div class="item desktop-item">
 <!--SLIDER 3 DESKTOP------------------------------>
-<a href="/Style-Library-Products/Colors-And-Textures-Style-Library/Color-Of-The-Month-Grey-Colors-And-Textures/"><img src="/site/Bliss_home/DESKTOP Slider Banners/DESKBanner_GreyColorMonth091615.jpg" alt=""/></a>
+<a href="/Style-Library-Products/Metals-Style-Library/Heavy-Metals-Metals"><img src="/site/Bliss_home/HeavyMetalsHomeBanner.jpg" alt="glassware""/></a>
 </div>
 <div class="item desktop-item">
 <!--SLIDER 4 DESKTOP------------------------------>
-<a href="/Style-Library-Products/Bestsellers-Style-Library"><img src="/site/Bliss_home/MostWanted8-5-15HomeBanner.jpg" alt="" /></a>
+<a href="/Style-Library-Products/Designer-Picks-Style-Library/Gilded-Mirrors-Designer-Picks"><img src="/site/Bliss_home/DesignerGildedMirrorHomeBanner.jpg" alt="" "/></a>
 </div>
 <div class="item desktop-item">
 <!--SLIDER 5 DESKTOP------------------------------>
-<a href="/Style-Library-Products/The-Explorer-Style-Library/Vintage-Explorer-The-Explorer"><img src="/site/Bliss_home/DESKTOP Slider Banners/DESKBanner_VintageExplorer091615.jpg" alt="" /></a>
+<a href="/Style-Library-Products/Colors-And-Textures-Style-Library/Color-Of-The-Month-Grey-Colors-And-Textures/"><img src="/site/Bliss_home/DESKTOP Slider Banners/DESKBanner_GreyColorMonth091615.jpg" alt=""/></a>
 </div>
 <div class="item mobile-item">
 <!--SLIDER 1 MOBILE------------------------------>
-<a href="/Style-Library-Products/Metals-Style-Library/Heavy-Metals-Metals"><img src="/site/Bliss_home/MOBILE Slider Banners/MOBILEBANNER_HeavyMetals091615.jpg" alt="The Style Library" /></a>
+<a href="/http://www.blisshomeanddesign.com/Style-Library-Products/Seasons-Style-Library/Fall-Inspired-Accents-Seasons"><img src="/SCA Site Images/Homepage Slider/Mobile/MOBILE-FallAccentsHomeBanner.jpg" alt="Designer Series Gilded Mirrors" /></a>
 </div>
 <div class="item mobile-item">
 <!--SLIDER 2 MOBILE------------------------------>
-<a href="/Style-Library-Products/Designer-Picks-Style-Library/Gilded-Mirrors-Designer-Picks"><img src="/site/Bliss_home/MOBILE Slider Banners/MOBILEBANNER_DesignerGildedMirrors091615.jpg" alt="Heavy Metal" /></a>
+<a href="/Style-Library-Products/The-Explorer-Style-Library/Mediterranean-Inspirations-The-Explorer/"><img src="/SCA Site Images/Homepage Slider/Mobile/MOBILE-MediterraneanHomebanner.jpg" alt="Subtle and Effortless Design" /></a>
 </div>
 <div class="item mobile-item">
 <!--SLIDER 3 MOBILE------------------------------>
-<a href="/Style-Library-Products/Colors-And-Textures-Style-Library/Color-Of-The-Month-Grey-Colors-And-Textures//"><img src="/site/Bliss_home/MOBILE Slider Banners/MOBILEBanner_GreyColorMonth091615.jpg" alt="Beguiling Accents & Decor" /></a>
+<a href="/Style-Library-Products/Metals-Style-Library/Heavy-Metals-Metals"><img src="/site/Bliss_home/MOBILE Slider Banners/MOBILEBANNER_HeavyMetals091615.jpg" alt="The Style Library" /></a>
 </div>
 <div class="item mobile-item">
 <!--SLIDER 4 MOBILE------------------------------>
-<a href="/Style-Library-Products/Bestsellers-Style-Library"><img src="/site/Bliss_home/MOBILE Slider Banners/MOBILEBANNER_MostWanted091615.jpg" alt="Designer Series Gilded Mirrors" /></a>
+<a href="/Style-Library-Products/Designer-Picks-Style-Library/Gilded-Mirrors-Designer-Picks"><img src="/site/Bliss_home/MOBILE Slider Banners/MOBILEBANNER_DesignerGildedMirrors091615.jpg" alt="Heavy Metal" /></a>
 </div>
 <div class="item mobile-item">
 <!--SLIDER 5 MOBILE------------------------------>
-<a href="/Style-Library-Products/The-Explorer-Style-Library/Vintage-Explorer-The-Explorer/"><img src="/site/Bliss_home/MOBILE Slider Banners/MOBILEBanner_VintageExplorer091615.jpg" alt="Subtle and Effortless Design" /></a>
+<a href="/Style-Library-Products/Colors-And-Textures-Style-Library/Color-Of-The-Month-Grey-Colors-And-Textures//"><img src="/site/Bliss_home/MOBILE Slider Banners/MOBILEBanner_GreyColorMonth091615.jpg" alt="Beguiling Accents & Decor" /></a>
 </div>
 </div>
 </div>
 <!-- HOMEPAGE SLIDER END HERE------------------------------>
 <div class="home_image_vert_spacer" style="float: left; width: 100%; height: 15px; border-bottom: 1px solid #D8D9DA; margin-bottom: 15px;"></div>
 <div id="home_image_row1_img1">
-<!-- BOX1 START HERE------------------------------>
+<!-- BOX1 DESKTOP START HERE------------------------------>
 <a href="/Get-The-Look-Products">
-<img class="desktop-box" id="home_image_wide_img" src="/site/Bliss_home/home_page_images/BOX1.jpg">
-<img class="mobile-box" src="/SSP%20Applications/Bliss%20SuiteCommerce/ShopFlow/img/homepage/mobile-box1.jpg">
+<img class="desktop-box" id="home_image_wide_img" src="/SCA Site Images/Homepage Box Banners/Desktop/BOX1DESK_GetTheLookHomeBanner092115.jpg">
+</a>
+<!-- BOX1 MOBILE START HERE------------------------------>
+<a href="/Get-The-Look-Products">
+<img class="mobile-box" src="/SCA Site Images/Homepage Box Banners/Mobile/BOX1MOBILE_GetTheLookHomeBanner092115.jpg">
 </a>
 <!-- BOX1 END HERE------------------------------>
 </div>
 <div class="home_image_vert_spacer" style="float: left; width: 100%; height: 15px; border-bottom: 1px solid #D8D9DA; margin-bottom: 15px;"></div>
 <div id="home_image_row">
 <div id="home_image_narrow_1">
-<!-- BOX2 START HERE------------------------------>
+<!-- BOX2 DESKTOP START HERE------------------------------>
 <a href="/Baby-Products">
-<img class="desktop-box" id="home_image_narrow_img" src="/site/Bliss_home/home_page_images/BOX2.jpg">
-<img class="mobile-box" src="/SSP%20Applications/Bliss%20SuiteCommerce/ShopFlow/img/homepage/mobile-box2.jpg">
+<img class="desktop-box" id="home_image_narrow_img" src="/SCA Site Images/Homepage Box Banners/Desktop/BOX2DESK_FeaturedSeasHomeBanner092115.jpg">
+</a>
+<!-- BOX2 MOBILE START HERE------------------------------>
+<a href="/Baby-Products">
+<img class="mobile-box" src="/SCA Site Images/Homepage Box Banners/Mobile/BOX2MOBILE_FeaturedSeasHomeBanner092115.jpg">
 </a>
 <!-- BOX2 END HERE------------------------------>
 </div>
   <div class="home_image_vert_spacer" style="float:left; width:20px; height:100%; padding-bottom: 35%;"></div>
   <div id="home_image_wide_1"">
-<!-- BOX3 START HERE------------------------------>
+<!-- BOX3 DESKTOP START HERE------------------------------>
 <a href="/New-Arrivals-Products">
-<img class="desktop-box" id="home_image_wide_img" src="/site/Bliss_home/home_page_images/BOX3.jpg">
-<img class="mobile-box" src="/SSP%20Applications/Bliss%20SuiteCommerce/ShopFlow/img/homepage/mobile-box3.jpg">
+<img class="desktop-box" id="home_image_wide_img" src="/SCA Site Images/Homepage Box Banners/Desktop/BOX3DESK_NewArrivalsHomebanner092115.jpg">
+</a>
+<!-- BOX3 MOBILE START HERE------------------------------>
+<a href="/New-Arrivals-Products">
+<img class="mobile-box" src="/SCA Site Images/Homepage Box Banners/Mobile/BOX3MOBILE_NewArrivalHomebanner092115.jpg">
 </a>
 <!-- BOX3 END HERE------------------------------>
 </div>
 </div>
 <div class="home_image_vert_spacer" style="float: left; width: 100%; height: 15px; border-bottom: 1px solid #D8D9DA; margin-bottom: 15px;"></div>
 <div id="home_image_row3_img1" style="float:left;">
-<!-- BOX4 START HERE------------------------------>
+<!-- BOX4 DESKTOP START HERE------------------------------>
 <a href="/Style-Library-Products">
-<img class="desktop-box" id="home_image_wide_img" src="/site/Bliss_home/home_page_images/BOX4.jpg">
-<img class="mobile-box" src="/SSP%20Applications/Bliss%20SuiteCommerce/ShopFlow/img/homepage/mobile-box4.jpg">
+<img class="desktop-box" id="home_image_wide_img" src="/SCA Site Images/Homepage Box Banners/Desktop/BOX4DESK_StyleLibraryHomebanner092115.jpg">
+</a>
+<!-- BOX4 MOBILE START HERE------------------------------>
+<a href="/Style-Library-Products">
+<img class="mobile-box" src="/SCA Site Images/Homepage Box Banners/Mobile/BOX4MOBILE_StyleLibraryHomebanner092115.jpg">
 </a>
 <!-- BOX4 ENDHERE------------------------------>
 </div>
 <div class="home_image_vert_spacer" style="float: left; width: 100%; height: 15px; border-bottom: 1px solid #D8D9DA; margin-bottom: 15px;"></div>
 <div id="home_image_row4_img1" style="float:left;">
-<!-- BOX5 START HERE------------------------------>
+<!-- BOX5 DESKTOP START HERE------------------------------>
 <a href="http://blog.blisshomeanddesign.com/">
-<img class="desktop-box" id="home_image_wide_img" src="/site/Bliss_home/home_page_images/BOX5_081715.jpg">
-<img class="mobile-box" src="/SSP%20Applications/Bliss%20SuiteCommerce/ShopFlow/img/homepage/mobile-box5.jpg">
+<img class="desktop-box" id="home_image_wide_img" src="/SCA Site Images/Homepage Box Banners/Desktop/BOX5DESK-BlogHomebanner092151.jpg">
+<!-- BOX5 MOBILE START HERE------------------------------>
+<a href="http://blog.blisshomeanddesign.com/">
+<img class="mobile-box" src="/SCA Site Images/Homepage Box Banners/Mobile/BOX5MOBILE-BlogHomebanner092115.jpg">
 </a>
 <!-- BOX5 END HERE------------------------------>
 </div>
 <div style="float:left; height:1px; width:15px;"></div>
 <div id="home_image_row4_img2" style="float:left;">
-<!-- BOX6 START HERE------------------------------>
+<!-- BOX6 DESKTOP START HERE------------------------------>
 <a href="/Style-Library-Products/Designer-Picks-Style-Library/">
-<img class="desktop-box" id="home_image_wide_img" src="/site/Bliss_home/home_page_images/BOX6-designer-picks-homepage-banner_081315.jpg">
-<img class="mobile-box" src="/SSP%20Applications/Bliss%20SuiteCommerce/ShopFlow/img/homepage/mobile-box6.jpg">
+<img class="desktop-box" id="home_image_wide_img" src="/SCA Site Images/Homepage Box Banners/Desktop/BOX6DESK-DesignerPickHomebanner09215.jpg">
+</a>
+<!-- BOX6 MOBILE START HERE------------------------------>
+<a href="/Style-Library-Products/Designer-Picks-Style-Library/">
+<img class="mobile-box" src="/SCA Site Images/Homepage Box Banners/Mobile/BOX6MOBILE-DesignerPickHomebanner092115.jpg">
 </a>
 <!-- BOX6 END HERE------------------------------>
 </div>
@@ -342,6 +359,9 @@ pauseOnHover: true
 <!-- BOX8 DESKTOP START HERE------------------------------>
 <a href="/STYLE-LIBRARY/Most-Wanted-July/Lapin-Pillow.html">
 <img class="desktop-box" id="home_image_wide_img" src="/site/Bliss_home/home_page_images/BOX8.jpg">
+</a>
+<!-- BOX8 MOBILE START HERE------------------------------>
+<a href="/Style-Library-Products/Bestsellers-Style-Library">
 <img class="mobile-box" src="/SSP%20Applications/Bliss%20SuiteCommerce/ShopFlow/img/homepage/mobile-box8.jpg">
 </a>
 <!-- BOX8 DESKTOP END HERE------------------------------>
@@ -361,18 +381,24 @@ pauseOnHover: true
 </div>
 <div class="home_image_vert_spacer" style="float:left; height:1px; width:8px;"></div>
 <div id="home_image_row5_img4" class="home_image_row5_img">
-<!-- BOX10 START HERE------------------------------>
+<!-- BOX10 DESKTOP START HERE------------------------------>
 <a href="/Style-Library-Products/Bestsellers-Style-Library">
 <img class="desktop-box" id="home_image_wide_img" src="/site/Bliss_home/home_page_images/BOX10.jpg">
+</a>
+<!-- BOX10 MOBILE START HERE------------------------------>
+<a href="/press">
 <img class="mobile-box" src="/SSP%20Applications/Bliss%20SuiteCommerce/ShopFlow/img/homepage/mobile-box10.jpg">
 </a>
 <!-- BOX10  END HERE------------------------------>
 </div>
 <div class="home_image_vert_spacer" style="float:left; height:1px; width:8px;"></div>
 <div id="home_image_row5_img5" class="home_image_row5_img">
-<!-- BOX11 START HERE------------------------------>
+<!-- BOX11 DESKTOP START HERE------------------------------>
 <a href="/STYLE-LIBRARY/Most-Wanted-July/Small-Orange-Sea-Glass-Beads.html">
 <img class="desktop-box" id="home_image_wide_img" src="/site/Bliss_home/home_page_images/BOX11.jpg">
+</a>
+<!-- BOX11 MOBILE START HERE------------------------------>
+<a href="/Shop-by-Brand-Products">
 <img class="mobile-box shop-brand" src="/SSP%20Applications/Bliss%20SuiteCommerce/ShopFlow/img/homepage/mobile-box11.jpg">
 </a>
 <!-- BOX11 END HERE------------------------------>

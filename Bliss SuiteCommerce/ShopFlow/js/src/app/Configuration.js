@@ -317,6 +317,7 @@
 		// Analytics Settings
 		// You need to set up both popertyID and domainName to make the default trackers work
 	,	tracking: {
+			
 			// [Google Universal Analytics](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 			googleUniversalAnalytics: {
 				propertyID: ''
@@ -366,7 +367,7 @@
 			,	titleToken: '$(0)'
 			,	titleSeparator: ', '
 			}
-		,	
+	,	
 			{
 				id: 'onlinecustomerprice'
 			,	name: _('Price').translate()
@@ -382,7 +383,7 @@
 					return _.formatCurrency(value);
 				}
 			}
-		,
+	,
 			{
 					id: 'custitembeddingcolor'
 				,	name: _('Color').translate()
@@ -625,6 +626,18 @@
 				,	titleToken: '$(0)'
 				,	titleSeparator: ', '
 			}
+		,
+		{
+				id: 'custitemdimensions'
+			,	name: _('Dimensions').translate()
+			,	url: 'dimensions'
+			,	priority: 6
+			,	behavior: 'multi'
+			,	macro: 'facetList'
+			,	uncollapsible: true
+			,	titleToken: '$(0)'
+			,	titleSeparator: ', '
+		}
 		]
 		// This options set the title for the facet browse view.
 	,	defaultSearchTitle: _('Products').translate()
@@ -824,9 +837,11 @@
 	,	homePage:
 		{
 			carouselImages: [
-				_.getAbsoluteUrl('img/homepage/carousel-1.jpg')
-			,	_.getAbsoluteUrl('img/homepage/carousel-2.jpg')
-			,	_.getAbsoluteUrl('img/homepage/carousel-3.jpg')
+				_.getAbsoluteUrl('img/homepage/DESK-MediterraneanHomeBanner.jpg')
+			,	_.getAbsoluteUrl('img/homepage/HeavyMetalsHomeBanner.jpg')
+			,	_.getAbsoluteUrl('img/homepage/DesignerGildedMirrorHomeBanner.jpg')
+			,	_.getAbsoluteUrl('img/homepage/DESKBanner_GreyColorMonth091615.jpg')
+			,	_.getAbsoluteUrl('img/homepage/MostWanted8-5-15HomeBanner.jpg')
 			]
 			// the bottom banner images will display by default as a row, so based on bootstrap grid system, there should be a count divisible
 		,	bottomBannerImages: [

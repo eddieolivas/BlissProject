@@ -10,7 +10,7 @@
 	<meta itemprop="url" content="<%= item.get('_url') %>">
 	<div class="item-cell-thumbnail thumbnail">
 		<a href="<%= item.get('_url') %>">
-			<img src="<%= application.resizeImage(thumbnail.url, 'thumbnail') %>" alt="<%= thumbnail.altimagetext %>" itemprop="image">
+			<img src="<%= application.resizeImage(thumbnail.url, 'thumbnail') %>" alt="<%= item.get('_name') %>" itemprop="image">
 		</a>
 		<% if (SC.ENVIRONMENT.jsEnvironment === 'browser') { %>
 			<div class="btn-quick-view">
@@ -28,19 +28,17 @@
 			</span>
 		</a>
 	</h2>
+	<% 
+		var regularPrice = item.get('custitemregularprice');
+		if (regularPrice != undefined) { %>
+			<div class="regular_price">
+				Regular Price: <span style="text-decoration: line-through;">$<%=regularPrice%></span>		
+			</div>
+		<% } %>
 	<div class="item-cell-price">
 		<%= macros.showItemPrice(item.getPrice(), stock_info.isInStock) %>
 	</div>
-	<div class="item-rating item-cell-rating rating-<%= item.get('_rating') %>" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
-		<%= macros.starRating({
-			max: application.getConfig('productReviews.maxRate')
-		,	value: item.get('_rating')
-		,	ratingCount: item.get('_ratingsCount')
-		,	showRatingCount: true
-		,	className: 'star pull-left'
-		,	fillRounded: true
-		}) %>
-	</div>
+	
 	<div class="options-container">
 		<%= item && item.renderAllOptionSelector(
 			_.where(item.getPosibleOptions(), {showSelectorInList: true})

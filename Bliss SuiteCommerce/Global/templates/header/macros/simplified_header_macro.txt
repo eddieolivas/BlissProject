@@ -38,7 +38,7 @@
 			&nbsp;
 		</div>
 		<div class="span3 back-to-shopping">
-			<a class="pull-right btn continue-shopping btn-primary" href="<%= continue_url %>" <%= touchpoint ? 'data-touchpoint="home"' : '' %> data-hashtag="#<%= continue_url %>">
+			<a class="pull-right btn continue-shopping btn-primary" href="http://blisshomeanddesign.com">
 				<%= _('Continue Shopping').translate() %>
 			</a>
 		</div>

@@ -140,6 +140,24 @@ button.btn.btn-large.btn-primary.pull-right.balance-actions-margin.btn-expanded,
     text-shadow: none;
 }
 
+a[data-touchpoint="home"] {
+    color: #908f8f;
+}
+
+.span4.transaction-summary-one-col-desktop.margin-top-10 a {
+    color: #908f8f;
+}
+
+select.list-header-filter, select.list-header-sort {
+    width: 26%!important;
+}
+
+@media (max-width: 1200px) {
+	#content {
+	    width: 71%!important;
+	}
+}
+
 @media (max-width: 767px) {
         .main-container {
                   width: 90%;

@@ -600,7 +600,7 @@ checkoutSteps: [											//an array with the step groups conforming The Checko
 		// You need to set up both popertyID and domainName to make the default trackers work
 	,	tracking: {
 			// [Google Universal Analytics](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
-			googleUniversalAnalytics: {
+		 	googleUniversalAnalytics: {
 				propertyID: ''
 			,	domainName: ''
 			}

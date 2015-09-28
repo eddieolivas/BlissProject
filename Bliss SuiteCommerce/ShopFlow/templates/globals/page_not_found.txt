@@ -1,0 +1,11 @@
+<div class="view-header">
+	<% if (view.page_header) { %>
+	<h1><%= view.page_header %></h1>
+	<% } %>
+	<div id="main-banner" class="main-banner"></div>
+</div>
+<div id="page-not-found-content" class="view-body page-not-found-content">
+	<p style="font-weight: bold;"><%= _('Sorry, it seems the page requested does not exist or is no longer available.').translate() %></p>
+	<p><%= _('Try refreshing your browser, or click the button below to continue shopping.').translate() %></p>
+	<a href="http://blisshomeanddesign.com"><button class="continue_shopping"><%= _('Continue Shopping').translate() %></button></a>
+</div>
