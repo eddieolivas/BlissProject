@@ -1,0 +1,85 @@
+<% var paginationConfig = _.extend({}, view.options.application.getConfig('defaultPaginationSettings'), {
+		currentPage: view.collection.page
+	,	totalPages: view.collection.totalPages
+	,	pager: function (page)
+		{
+			return '/'+ (page > 1 ? _.setUrlParameter(Backbone.history.fragment, 'page', page) : _.removeUrlParameter(Backbone.history.fragment, 'page'));
+		}
+	,	extraClass: 'pull-right no-margin-top'
+
+	})
+    , ratings_count = view.item.get('_ratingsCount'); %>
+<% if ( !ratings_count ) { %>
+<section class='reviews-list'>
+         <a name="reviews"></a>
+	<h3><%= _('No reviews available').translate(0) %></h3>
+	<p><%= _('Be the first to').translate() %> <a href="<%= view.baseUrl %>/newReview"><%= _('Write a Review').translate() %></a></p>
+</section>
+<% } else { %>
+<header class="reviews-header">
+     <a name="reviews"></a>
+    <h2><%= _('Ratings &amp; Reviews').translate() %></h2>
+	<div class="row">
+		<div class="span3">
+			<div class="review-summary">
+				<h3 class="no-margin-top no-margin-bottom">
+					<%= view.item.get('_ratingsCount') === 1 ?  _('1 review').translate() : _('$(0) reviews').translate( view.item.get('_ratingsCount') ) %>
+				</h3>
+				<div>
+					<%= starRating({
+						max: view.options.application.getConfig('productReviews.maxRate')
+					,	value: view.item.get('_rating')
+					,	showRatingCount: false
+					,	className: 'star'
+					,	fillRounded: true
+					,	showValue: true
+					}) %>
+				</div>
+				<div>
+					<%= ratingByStar({
+						view: view
+					,	ratingsCountsByRate: view.item.get("_ratingsCountsByRate") || {}
+					,	totalReviews: view.item.get("_ratingsCount")
+					,	maxRate: view.options.application.getConfig('productReviews.maxRate')
+					,	showPercentage: true
+					,	showCount: true
+					}) %>
+				</div>
+				<br>
+			</div>
+		</div>
+        <div class="span8 right-aligned write-review-container">
+            <a href="<%= view.item.get('_url') %>/newReview" class="btn btn-large"><%= _('Write a Review').translate() %></a>
+        </div>
+	</div>
+	<div class="review-header">
+	   <h1><%= view.page_header %></h1>
+	</div>
+</header>
+<div data-type="list-header-placeholder"></div>
+<section class='reviews-list'>
+<% if (view.collection.totalRecordsFound < 1) { %>
+	<%= _('There are no reviews available for your selection').translate() %>
+<% } else { %>
+<% view.collection.each(function (review) { %>
+	<div class="review-container">
+		<%= SC.macros[ view.options.application.getConfig('productReviews.reviewMacro') ] (review, _.extend({ showActionButtons: true }, view.options.application.getConfig('productReviews') ) ) %>
+	</div>
+<% }) %>
+<% } %>
+</section>
+<footer>
+	<%= pagination(_.extend(paginationConfig, {extraClass: paginationConfig.extraClass +' no-margin-bottom'})) %>
+	<a href="<%= view.baseUrl %>/newReview" class="btn write_review"><%= _('Write a Review').translate() %></a>
+	<div class="clearfix"></div>
+</footer>
+<script>
+jQuery(document).ready(function() {
+jQuery(".rating").click(function() {
+    jQuery('html, body').animate({
+        scrollTop: jQuery("#item-product-reviews").offset().top
+    }, 1000);
+});
+});
+</script>
+<% } %>

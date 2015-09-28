@@ -1,0 +1,121 @@
+<%
+	var SiteSettings
+	,	siteType
+	,	Environment
+	,	Language
+	,	Currency
+	,	Error;
+
+	try {
+		SiteSettings = Application.getModel('SiteSettings').get();
+		siteType = SiteSettings.sitetype;
+
+		Environment = Application.getEnvironment(session, request);
+		Language = Environment.currentLanguage && Environment.currentLanguage.locale || '';
+		Currency = Environment.currentCurrency && Environment.currentCurrency.code || '';
+
+		// Access control, if you are not loged this will send you to the log in page
+		if (!session.isLoggedIn() || session.getCustomer().isGuest())
+		{
+			var parameters = request.getAllParameters();
+
+			delete parameters.sitepath;
+			parameters.origin = 'customercenter';
+
+			if (parameters.fragment)
+			{
+				parameters.origin_hash = parameters.fragment;
+				delete parameters.fragment;
+			}
+
+			return nlapiSetRedirectURL('EXTERNAL', SiteSettings.touchpoints.login, null, false, parameters);
+		}
+	} catch (e) {
+		Error = Application.processError(e);
+	}
+%>
+<!DOCTYPE html>
+<html <%= Language ? 'lang="' + Language.replace('_', '-') + '"' : '' %>>
+<head>
+<link rel="shortcut icon" href="<%= session.getAbsoluteUrl("checkout", "img/favicon.ico") %>" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>My Account</title>
+<!--[if lt IE 9]>
+<script src="<%= session.getAbsoluteUrl('checkout', 'js/utils/html5shiv.js') %>"></script>
+<![endif]-->
+<% if (siteType && siteType === 'STANDARD') { %>
+<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'skins/standard/styles-sitebuilder.css') %>">
+<%= getPageFullHead() %>
+<% } %>
+<script>
+	var SC = window.SC = {
+		ENVIRONMENT: {
+			jsEnvironment: (typeof nsglobal === 'undefined') ? 'browser' : 'server'
+		}
+		, isCrossOrigin: function() { return '<%= Environment.currentHostString %>' !== document.location.hostname; }
+		, isPageGenerator: function() { return typeof nsglobal !== 'undefined'; }
+		, getSessionInfo: function(key)
+		{
+			var session = SC.SESSION || SC.DEFAULT_SESSION || {};
+			return (key) ? session[key] : session;
+		}
+	};
+</script>
+<script src="<%= session.getAbsoluteUrl('checkout', 'sc.environment.ssp?lang=' + Language + '&cur=' + Currency) %>"></script>
+<% if (Error) { %>
+<script>SC.ENVIRONMENT.contextError = <%= JSON.stringify(Error) %>;</script>
+<% } %>
+<script src="<%= session.getAbsoluteUrl('checkout', 'js/Application-014f94709f90.js') %>"></script>
+<script src="<%= session.getAbsoluteUrl('checkout', 'templates/Templates-014fd2af844a.js') %>"></script>
+<script type="text/javascript">
+    if(typeof ROITracker==='undefined'){window.ROIStorage={};ROIStorage.q=[];window.ga=function(){ROIStorage.q.push(arguments)};var ga=window.ga;window.ga.q=window.ga.q||[];ROIStorage.roiq=[];ROIStorage.analyticsJsNotLoaded=true;window.ga.q.push([function(){var e;ROIStorage.realGa=window.ga;ROIStorage.analyticsJsNotLoaded=false;window.ga=function(){if(typeof arguments[0]==='function'){ROIStorage.realGa(arguments)}else{ROIStorage.q.push(arguments)}};ROIStorage.roiq.push=function(){ROIStorage.realGa.apply(window,arguments)};for(e=0;e<ROIStorage.roiq.length;e+=1){ROIStorage.realGa.call(window,ROIStorage.roiq[e])}}])}ROIStorage.gaq=ROIStorage.gaq||[];window._gaq={push:function(){var e;for(e=0;e<arguments.length;e++){ROIStorage.gaq.push(arguments[e])}}};var _gaq=window._gaq;ROIStorage.gaq=ROIStorage.gaq||[];window._gat={trackingObjects:{},_createTracker:function(e,t){return new _gat.Tracker(e,t)},_getTracker:function(e){return _gat._createTracker(e)},_getTrackerByName:function(e){var e=e||'';if(_gat.trackingObjects.hasOwnProperty(e)){return _gat.trackingObjects[e]}return _gat._createTracker('UA-XXXXX-X',e)},_anonymizeIp:function(){ROIStorage.gaq.push('_gat._anonymizeIp')},_forceSSL:function(){ROIStorage.gaq.push('_gat._forceSSL')},_getPlugin:function(){ROIStorage.gaq.push('_gat._getPlugin')},Tracker:function(e,t){function u(e){return function(){if(s){e=s+'.'+e}var t=Array.prototype.slice.call(arguments,0);t.unshift(e);ROIStorage.gaq.push(t)}}var n,r,i=['_addDevId','_addEventListener','_addIgnoredOrganic','_addIgnoredRef','_addItem','_addOrganic','_addTrans','_clearIgnoredOrganic','_clearIgnoredRef','_clearOrganic','_clearTrans','_clearXKey','_clearXValue','_cookiePathCopy','_createEventTracker','_createXObj','_deleteCustomVar','_get','_getAccount','_getClientInfo','_getDetectFlash','_getDetectTitle','_getLinkerUrl','_getLocalGifPath','_getName','_getPlugin','_getServiceMode','_getVersion','_getVisitorCustomVar','_getXKey','_getXValue','_initData','_link','_linkByPost','_removeEventListener','_sendXEvent','_set','_setAccount','_setAllowAnchor','_setAllowHash','_setAllowLinker','_setAutoTrackOutbound','_setCampCIdKey','_setCampContentKey','_setCampIdKey','_setCampMediumKey','_setCampNOKey','_setCampNameKey','_setCampSourceKey','_setCampTermKey','_setCampaignCookieTimeout','_setCampaignTrack','_setClientInfo','_setCookiePath','_setCookiePersistence','_setCookieTimeout','_setCustomVar','_setDetectFlash','_setDetectTitle','_setDomainName','_setHrefExamineLimit','_setLocalGifPath','_setLocalRemoteServerMode','_setLocalServerMode','_setMaxCustomVariables','_setNamespace','_setPageGroup','_setReferrerOverride','_setRemoteServerMode','_setSampleRate','_setSessionCookieTimeout','_setSessionTimeout','_setSiteSpeedSampleRate','_setTrackOutboundSubdomains','_setTrans','_setTransactionDelim','_setVar','_setVisitorCookieTimeout','_setXKey','_setXValue','_trackEvent','_trackPageLoadTime','_trackPageview','_trackSocial','_trackTiming','_trackTrans','_visitCode'];var s=t||'';var o=e||'UA-XXXXX-X';for(n=0;n<i.length;n++){r=i[n];this[r]=u(r)}_gat.trackingObjects[s]=this}};var _gat=window._gat;
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://9af2b5a2681fd4041fc3-747cd66bf2f0a527a8af8d2b01a0cd13.ssl.cf2.rackcdn.com/gate.js' : 'http://2e529a3d4956c47fc2c3-747cd66bf2f0a527a8af8d2b01a0cd13.r19.cf2.rackcdn.com/gate.js');
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32592647-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+</head>
+<body>
+<% if (siteType && siteType === 'STANDARD'){ %>
+<div id='div__header' class='noprint' leftmargin='0' topmargin='0' marginwidth='1' >
+<table border='0' cellspacing='0' cellpadding='0' width='100%'>
+	<%= getPageTop() %>
+</table>
+</div>
+<% } %>
+<noscript>
+<div class="alert alert-error alert-noscript">
+	<strong>Javascript is disabled on your browser.</strong><br>
+	To view this site, you must enable JavaScript or upgrade to a JavaScript-capable browser.
+</div>
+</noscript>
+
+<div id="main" class="main"></div>
+
+<% if (siteType && siteType === 'ADVANCED') { %>
+<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'skins/standard/Styles-014fd1d44a17.css') %>">
+<% } %>
+
+<% if (typeof(release_metadata) != 'undefined') { %>
+<!-- <%= JSON.stringify(release_metadata) %> -->
+<% } %>
+</body>
+</html>
