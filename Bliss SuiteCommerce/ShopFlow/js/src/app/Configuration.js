@@ -320,8 +320,8 @@
 			
 			// [Google Universal Analytics](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 			googleUniversalAnalytics: {
-				propertyID: ''
-			,	domainName: ''
+				propertyID: 'UA-32592647-1'
+			,	domainName: 'blisshomeanddesign.com'
 			}
 			// [Google Analytics](https://developers.google.com/analytics/devguides/collection/gajs/)
 		,	google: {

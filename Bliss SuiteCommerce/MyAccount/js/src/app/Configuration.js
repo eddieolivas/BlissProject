@@ -198,13 +198,13 @@
 	,	tracking: {
 			// [Google Universal Analytics](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 			googleUniversalAnalytics: {
-				propertyID: ''
-			,	domainName: ''
+				propertyID: 'UA-32592647-1'
+			,	domainName: 'www.blisshomeanddesign.com'
 			}
 			// [Google Analytics](https://developers.google.com/analytics/devguides/collection/gajs/)
 		,	google: {
-				propertyID: ''
-			,	domainName: ''
+				propertyID: 'UA-32592647-1'
+			,	domainName: 'www.blisshomeanddesign.com'
 			}
 		}
 

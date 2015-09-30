@@ -1,0 +1,103 @@
+<!-- Base MasterSlider style sheet -->
+<link rel="stylesheet" href="masterslider/style/masterslider.css" />
+ 
+<!-- MasterSlider default skin -->
+<link rel="stylesheet" href="masterslider/skins/default/style.css" />
+ 
+<!-- Latest version of jQuery from Google CDN -->
+<!-- You can remove it if jQuery is already included. -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+ 
+<!-- MasterSlider main JS file -->
+<script src="masterslider/masterslider.min.js"></script>
+
+<style>
+.ms-inner-controls-cont {
+    border: 1px solid #aaa;
+}
+.ms-bullets {
+    bottom: -30px!important;
+}
+</style>
+
+
+<!-- masterslider -->
+<div class="master-slider ms-skin-default" id="masterslider">
+    <!-- new slide -->
+    <div class="ms-slide">
+         
+        <!-- slide background -->
+        <img src="/SCA%20Site%20Images/Homepage%20Slider/Desktop/DESK_ColorDuoNavyCoralHomebanner092815.jpg" alt="Navy Corals" data-loader="false"/>     
+                  
+        <a href="http://blisshomeanddesign.com/Style-Library-Products/Colors-And-Textures-Style-Library/Navy-and-Coral-Colors-Textures">Navy Corals</a>
+         
+    </div>
+    <!-- end of slide -->
+
+    <!-- new slide -->
+    <div class="ms-slide">
+         
+        <!-- slide background -->
+        <img src="/SCA%20Site%20Images/Homepage%20Slider/Desktop/DESK-FallAccentsHomeBanner.jpg" alt="Fall Accents" data-loader="false"/>     
+         
+        <!-- slide text layer -->
+        <a href="/Style-Library-Products/Seasons-Style-Library/Fall-Inspired-Accents-Seasons">Fall Accents</a>
+         
+    </div>
+    <!-- end of slide -->
+     
+    <!-- new slide -->
+    <div class="ms-slide">
+         
+        <!-- slide background -->
+        <img src="/SCA%20Site%20Images/Homepage%20Slider/Desktop/DESK-MediterraneanHomeBanner.jpg" alt="Mediterranean" data-loader="false"/>     
+                
+        <!-- linked slide -->
+        <a href="/Style-Library-Products/The-Explorer-Style-Library/Mediterranean-Inspirations-The-Explorer">Mediterranean</a>
+         
+    </div>
+    <!-- end of slide -->
+     
+    <!-- new slide -->
+    <div class="ms-slide">
+         
+        <!-- slide background -->
+        <img src="/site/Bliss_home/HeavyMetalsHomeBanner.jpg" alt="Heavy Metals" data-loader="false"/>     
+                  
+        <a href="/Style-Library-Products/Metals-Style-Library/Heavy-Metals-Metals">Heavy Metals</a>
+         
+    </div>
+    <!-- end of slide -->
+
+    <!-- new slide -->
+    <div class="ms-slide">
+         
+        <!-- slide background -->
+        <img src="/site/Bliss_home/DesignerGildedMirrorHomeBanner.jpg" alt="Gilded Mirrors" data-loader="false"/>     
+                  
+        <a href="/Style-Library-Products/Designer-Picks-Style-Library/Gilded-Mirrors-Designer-Picks">Gilded Mirrors</a>
+         
+    </div>
+    <!-- end of slide -->
+</div>
+<!-- end of masterslider -->
+
+
+<script>
+    jQuery('#masterslider').masterslider({
+    width: 1017,
+    height: 551,
+    autoplay: true,
+    speed: 17,
+    loop: true,
+    // more options...
+    controls : {
+        arrows : {autohide:false},
+        bullets : {
+               autohide: false,
+               dir: "h"
+        }
+        // more slider controls...
+    }
+});
+</script>

@@ -3170,7 +3170,7 @@ section.home-page-main, section.home-page-banner-bottom {
     width: 100%;
 }
 
-.sliderContent, .item, .sliderContent .item img {
+.sliderContent, .sliderContent .item img {
     position: absolute!important;
     left: 0;
     height: 100%!important;
@@ -3954,6 +3954,10 @@ p.mag-description-p {
 .narrow-by-btn>span {
 	    color: #908f8f;
 	}
+	
+.well.item-detailed-info {
+	margin-top: 0;
+}	
 
 /* Non-inventory item page styles -------------------------------------------*/
 
@@ -4493,6 +4497,14 @@ h2.nonInvItem {
 	.archive-row .span2 {
 		width: 100%;
 		text-align: center;
+	}
+	
+	#mc-embedded-subscribe, input#mce-EMAIL {
+	    min-height: 24px;
+	}
+	
+	input#mce-EMAIL {
+		padding-left: 5px;
 	}
 
 }

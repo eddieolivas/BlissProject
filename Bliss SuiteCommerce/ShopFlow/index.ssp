@@ -97,19 +97,6 @@ if (!SC.isPageGenerator())
     })();
 </script>
 
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-32592647-1']);
-  _gaq.push(['_setDomainName', 'none']);
-  _gaq.push(['_setAllowLinker', true]);
-  _gaq.push(['_trackPageview']);
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-
 </head>
 
 <body>
@@ -191,8 +178,8 @@ if (!SC.isCrossOrigin())
 	// to the sc.environment.ssp (Moderate cacheing) or to the sc.user.environment.ssp (No cache but less performant)
 	loadScript([
 		'<%= session.getAbsoluteUrl("shopping", 'js/libs/Libraries-014edbbdbca0.js') %>'
-	,	'<%= session.getAbsoluteUrl("shopping", 'templates/Templates-014ffff5aa97.js') %>'
-	,	'<%= session.getAbsoluteUrl("shopping", 'js/Application-015006d65795.js') %>'
+	,	'<%= session.getAbsoluteUrl("shopping", 'templates/Templates-01501b6de836.js') %>'
+	,	'<%= session.getAbsoluteUrl("shopping", 'js/Application-01501a73ffee.js') %>'
 	// ,	'/cms/1/cms.js'
 	]);
 
@@ -205,7 +192,7 @@ if (!SC.isCrossOrigin())
 	}
 }
 </script>
-<link rel="stylesheet" href="<%= session.getAbsoluteUrl('shopping', 'skins/standard/Styles-015006b12e3b.css') %>">
+<link rel="stylesheet" href="<%= session.getAbsoluteUrl('shopping', 'skins/standard/Styles-01501b6f75d8.css') %>">
 <% if (typeof(release_metadata) != 'undefined') { %>
 <!-- <%= JSON.stringify(release_metadata) %> -->
 <% } %>
