@@ -206,5 +206,6 @@
 	});
 </script>
 <script type="text/javascript" src="//s3.amazonaws.com/cdn.barilliance.com/blisshomeanddesign.com/cbar.js.php"></script>
-
+<script type="text/javascript" src="http://akwww.polyvorecdn.com/rsrc/add_to_polyvore.js"></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
 <% }) %>

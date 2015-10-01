@@ -3993,6 +3993,55 @@ h2.nonInvItem {
 
 /* End Non-inventory item page style ----------------------------------------*/
 
+a#addToPolyvore {
+    float: left;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.well-footer iframe[width="52"] {
+    float: left!important;
+    min-width: 60px!important;
+    width: 60px!important;
+}
+
+div#___plusone_0 {
+    float: left!important;
+    width: 51px!important;
+}
+
+iframe#twitter-widget-0 {
+    min-width: 56px!important;
+    float: left;
+    margin-right: 10px;
+}
+
+.googleplus {
+    position: relative;
+    width: 50px;
+    float: left;
+}
+
+.googlehider {
+    opacity: 0;
+    height: 30px;
+    width: 45px;
+    float: left;
+    z-index: 12;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    position: relative;
+}
+
+.mygoogle {  
+	position:absolute;  
+	top:0;  
+	left:0;  
+	z-index:2;  
+	margin-left:0px;  
+	}
+
+
 /* Start Mobile Media Queries -----------------------------------------------*/
 
 @media (min-width: 980px) {
@@ -4043,6 +4092,13 @@ h2.nonInvItem {
 		width: 17%;
 	}
 		
+}
+
+@media (max-width: 1000px) and (min-width: 816px) {
+	.fb_iframe_widget {
+		clear: both;
+		display: block;
+	}
 }
 
 @media (max-width: 979px) and (min-width: 768px) {
@@ -4602,6 +4658,13 @@ h2.nonInvItem {
 		    margin-top: 0;
 		}
 	
+	}
+	
+	@media (max-width: 434px) {
+		.fb_iframe_widget {
+			clear: none;
+			display: inline-block;
+		}
 	}
 	
 	/* End Mobile Media Queries -----------------------------------------------*/

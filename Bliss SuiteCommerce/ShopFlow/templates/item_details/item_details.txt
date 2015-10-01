@@ -113,6 +113,35 @@
 					<% if (view.application.getConfig('hover_pin_it_button').enable_pin_it_button) { %>
 					<a class="pin-it-link-socials" data-share-click-pint-it-button="true"></a>
 					<% } %>
+					<a href="http://www.polyvore.com" name="addToPolyvore" id="addToPolyvore" data-product-url="http://www.blisshomeanddesign.com<%= model.get('_url') %>" data-image-url="<%= model.attributes._images[0].url %>" data-name="<%= model.get('_name') %>" data-price="$|<%= model.attributes.onlinecustomerprice_detail.onlinecustomerprice %>"><img src="http://www.polyvore.com/rsrc/icons/embed/AddToPolyvore_61x20.png" data-loader="false"/></a>
+					<a class="houzz-share-button" 
+   data-url="http://www.blisshomeanddesign.com<%= model.get('_url') %>" 
+   data-hzid="34459" 
+   data-title="<%= model.get('_name') %>" 
+   data-img="<%= model.attributes._images[0].url %>" 
+   data-showcount="0" 
+   href="https://www.houzz.com">Houzz</a>
+<script>(function(d,s,id){if(!d.getElementById(id)){var js=d.createElement(s);js.id=id;js.async=true;js.src="//platform.houzz.com/js/widgets.js?"+(new Date().getTime());var ss=d.getElementsByTagName(s)[0];ss.parentNode.insertBefore(js,ss);}})(document,"script","houzzwidget-js");</script>
+					<div class="googleplus">  
+					    <div class="googlehider">  
+					        <g:plusone annotation="none"></g:plusone>  
+					          
+					        <!-- Place this render call where appropriate -->  
+					        <script type="text/javascript">  
+					          window.___gcfg = {lang: 'en-GB'};  
+					          
+					          (function() {  
+					            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;  
+					            po.src = 'https://apis.google.com/js/plusone.js';  
+					            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);  
+					          })();  
+					        </script>  
+					    </div>  
+					    <img src="/SCA%20Site%20Images/googleplus.jpg" class="mygoogle" />  
+					</div> 
+					
+					<a href="https://twitter.com/share" class="twitter-share-button" data-via="BlissHomeDesign" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 					<div class="social-share-icons" data-toggle="social-share-icons"></div>
 					<div id="banner-summary-bottom" class="content-banner banner-summary-bottom"></div>
 				</div>
