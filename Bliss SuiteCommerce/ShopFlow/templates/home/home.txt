@@ -227,43 +227,43 @@ pauseOnHover: true
 <div class="sliderContent">
 <div class="item desktop-item">
 <!--SLIDER 1 DESKTOP------------------------------>
-<a href="/Style-Library-Products/Bestsellers-Style-Library/September-Bestsellers"><img src="/SCA Site Images/Homepage Slider/Desktop/DESK_MostWanted9-30-15Homebanner.jpg" alt="" "/></a>
+<a href="/New-Arrivals-Products/Furniture-New-Arrivals"><img src="/SCA Site Images/Homepage Slider/Desktop/DESK_NAFurnitureHomeBanner10-12-15.jpg" alt=""/></a>
 </div>
 <div class="item desktop-item">
 <!--SLIDER 2 DESKTOP------------------------------>
-<a href="/Style-Library-Products/Colors-And-Textures-Style-Library/Navy-and-Coral-Colors-Textures/"><img src="/SCA Site Images/Homepage Slider/Desktop/DESK_ColorDuoNavyCoralHomebanner092815.jpg" alt=""/></a>
+<a href="/Sale-Products/"><img src="/SCA Site Images/Homepage Slider/Desktop/DESK_OnSaleNowHomebanner.jpg" alt=""/></a>
 </div>
 <div class="item desktop-item">
 <!--SLIDER 3 DESKTOP------------------------------>
-<a href="/Style-Library-Products/Seasons-Style-Library/Fall-Inspired-Accents-Seasons"><img src="/SCA Site Images/Homepage Slider/Desktop/DESK-FallAccentsHomeBanner.jpg" alt="" /></a>
+<a href="/Style-Library-Products/Designer-Picks-Style-Library/Designer-Series-Entertaining"><img src="/SCA Site Images/Homepage Slider/Desktop/DESK_DesignerSeriesEntertainingHomebanner.jpg" alt="" /></a>
 </div>
 <div class="item desktop-item">
 <!--SLIDER 4 DESKTOP------------------------------>
-<a href="/Style-Library-Products/The-Explorer-Style-Library/Mediterranean-Inspirations-The-Explorer"><img src="/SCA Site Images/Homepage Slider/Desktop/DESK-MediterraneanHomeBanner.jpg" alt="" /></a>
+<a href="/Style-Library-Products/Final-Touches-Style-Library/Eclectic-Wall-Decor"><img src="/SCA Site Images/Homepage Slider/Desktop/DESK_EclecticWallDecorHomeBanner.jpg" alt="" /></a>
 </div>
 <div class="item desktop-item">
 <!--SLIDER 5 DESKTOP------------------------------>
-<a href="/Style-Library-Products/Metals-Style-Library/Heavy-Metals-Metals"><img src="/site/Bliss_home/HeavyMetalsHomeBanner.jpg" alt="glassware""/></a>
+<a href="/Style-Library-Products/Pinterest-Favorites-Style-Library/September-Pinterest-Favorites"><img src="/SCA Site Images/Homepage Slider/Desktop/DESK_TopPinnedSept15Homebanner.jpg" alt=""glassware""/></a>
 </div>
 <div class="item mobile-item">
 <!--SLIDER 1 MOBILE------------------------------>
-<a href="/Style-Library-Products/Bestsellers-Style-Library/September-Bestsellers"><img src="/SCA Site Images/Homepage Slider/Mobile/MOBILE_MostWanted9-30-15Homebanner.jpg" alt="Heavy Metal" /></a>
+<a href="/New-Arrivals-Products/Furniture-New-Arrivals"><img src="/SCA Site Images/Homepage Slider/Mobile/MOBILE_NAFurnitureHomeBanner10-12-15.jpg" alt="Heavy Metal" /></a>
 </div>
 <div class="item mobile-item">
 <!--SLIDER 2 MOBILE------------------------------>
-<a href="/Style-Library-Products/Colors-And-Textures-Style-Library/Navy-and-Coral-Colors-Textures/"><img src="/SCA Site Images/Homepage Slider/Mobile/MOBILE_ColorDuoNavyCoralHomebanner092815.jpg" alt="Beguiling Accents & Decor" /></a>
+<a href="/Style-Library-Products/Colors-And-Textures-Style-Library/Navy-and-Coral-Colors-Textures/"><img src="/SCA Site Images/Homepage Slider/Mobile/MOBILE_OnSaleNowHomebanner.jpg" alt="Beguiling Accents & Decor" /></a>
 </div>
 <div class="item mobile-item">
 <!--SLIDER 3 MOBILE------------------------------>
-<a href="/http://www.blisshomeanddesign.com/Style-Library-Products/Seasons-Style-Library/Fall-Inspired-Accents-Seasons"><img src="/SCA Site Images/Homepage Slider/Mobile/MOBILE-FallAccentsHomeBanner.jpg" alt="Designer Series Gilded Mirrors" /></a>
+<a href="/Style-Library-Products/Designer-Picks-Style-Library/Designer-Series-Entertaining"><img src="/SCA Site Images/Homepage Slider/Mobile/MOBILE_DesignerSeriesEntertainingHomeBanner9-10-15.jpg" alt="Designer Series Gilded Mirrors" /></a>
 </div>
 <div class="item mobile-item">
 <!--SLIDER 4 MOBILE------------------------------>
-<a href="/Style-Library-Products/The-Explorer-Style-Library/Mediterranean-Inspirations-The-Explorer/"><img src="/SCA Site Images/Homepage Slider/Mobile/MOBILE-MediterraneanHomebanner.jpg" alt="Subtle and Effortless Design" /></a>
+<a href="/Style-Library-Products/Final-Touches-Style-Library/Eclectic-Wall-Decor/"><img src="/SCA Site Images/Homepage Slider/Mobile/MOBILE_EclecticWallDecorHomeBanner.jpg" alt="Subtle and Effortless Design" /></a>
 </div>
 <div class="item mobile-item">
 <!--SLIDER 5 MOBILE------------------------------>
-<a href="/Style-Library-Products/Metals-Style-Library/Heavy-Metals-Metals"><img src="/site/Bliss_home/MOBILE Slider Banners/MOBILEBANNER_HeavyMetals091615.jpg" alt="The Style Library" /></a>
+<a href="/Style-Library-Products/Pinterest-Favorites-Style-Library/September-Pinterest-Favorites"><img src="/SCA Site Images/Homepage Slider/Mobile/MOBILE_TopPinnedSept15Homebanner.jpg" alt="The Style Library" /></a>
 </div>
 </div>
 </div>
@@ -322,10 +322,10 @@ pauseOnHover: true
 <div id="home_image_row4_img1" style="float:left;">
 <!-- BOX5 DESKTOP START HERE------------------------------>
 <a href="http://blog.blisshomeanddesign.com/">
-<img class="desktop-box" id="home_image_wide_img" src="/SCA Site Images/Homepage Box Banners/Desktop/BOX5DESK-BlogHomebanner092151.jpg">
+<img class="desktop-box" id="home_image_wide_img" src="/SCA Site Images/Homepage Box Banners/Desktop/BOX5DESK-BlogHomebanner100751.jpg">
 <!-- BOX5 MOBILE START HERE------------------------------>
 <a href="http://blog.blisshomeanddesign.com/">
-<img class="mobile-box" src="/SCA Site Images/Homepage Box Banners/Mobile/BOX5MOBILE-BlogHomebanner092115.jpg">
+<img class="mobile-box" src="/SCA Site Images/Homepage Box Banners/Mobile/BOX5MOBILE-BlogHomebanner100715.jpg">
 </a>
 <!-- BOX5 END HERE------------------------------>
 </div>

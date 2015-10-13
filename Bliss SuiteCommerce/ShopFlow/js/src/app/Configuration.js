@@ -638,6 +638,42 @@
 			,	titleToken: '$(0)'
 			,	titleSeparator: ', '
 		}
+		,
+		{
+				id: 'custcol7'
+			,	name: _('Dimensions').translate()
+			,	url: 'dimensions'
+			,	priority: 6
+			,	behavior: 'multi'
+			,	macro: 'facetList'
+			,	uncollapsible: true
+			,	titleToken: '$(0)'
+			,	titleSeparator: ', '
+		}
+		,
+		{
+				id: 'custcolsize'
+			,	name: _('Size').translate()
+			,	url: 'size'
+			,	priority: 6
+			,	behavior: 'multi'
+			,	macro: 'facetList'
+			,	uncollapsible: true
+			,	titleToken: '$(0)'
+			,	titleSeparator: ', '
+		}
+		,
+		{
+				id: 'custcolcolor'
+			,	name: _('Color').translate()
+			,	url: 'color'
+			,	priority: 6
+			,	behavior: 'multi'
+			,	macro: 'facetList'
+			,	uncollapsible: true
+			,	titleToken: '$(0)'
+			,	titleSeparator: ', '
+		}
 		]
 		// This options set the title for the facet browse view.
 	,	defaultSearchTitle: _('Products').translate()

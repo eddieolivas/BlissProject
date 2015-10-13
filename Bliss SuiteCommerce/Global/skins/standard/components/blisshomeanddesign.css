@@ -527,14 +527,6 @@ a.heading_top_row_item :hover {
 }
 
 
-/* fix of barilliance banner. Need to hardcode top to 6px, else it is 26px on chrome */
-.cbar_banner {
-	top: 6px !important;
-}
-
-
-
- 
 .ie .flags li a {
 	font-weight:normal !important;
 }
@@ -2865,8 +2857,6 @@ h2, h3 {
 .navbar-inverse .navbar-inner {
     background: #f7f7f7;
     background-image: none;
-    min-height: 33px;
-    height: 33px;
 }
 
 .navbar-inverse .nav>li>a, .navbar-inverse .nav>li>a:focus, .navbar-inverse .nav>li>a:hover {
@@ -3001,10 +2991,6 @@ h2, h3 {
     display: none;
 }
 
-.mobile-nav .navbar-inner {
-	min-height: 85px;
-}
-
 .mobile-nav ul.nav.pull-right {
     float: none;
     margin: auto;
@@ -3137,8 +3123,8 @@ div#cbar_banner_942829388 {
 
 #content {
 	max-width: 1170px;
-	margin: auto!important;
-	width: auto!important;
+	margin: auto;
+	width: auto;
 }
 
 section.left-nav-section {
@@ -3959,6 +3945,14 @@ p.mag-description-p {
 	margin-top: 0;
 }	
 
+div#header_content_mobile {
+	text-align: center;
+}
+
+div#header_content_mobile img {
+	margin-bottom: 7px;
+}
+
 /* Non-inventory item page styles -------------------------------------------*/
 
 .view-body.span10 {
@@ -4040,7 +4034,12 @@ iframe#twitter-widget-0 {
 	z-index:2;  
 	margin-left:0px;  
 	}
+	
+img[width="1"] { position: absolute; }
 
+.fb_iframe_widget {
+	display: inline-block;
+}
 
 /* Start Mobile Media Queries -----------------------------------------------*/
 
@@ -4091,15 +4090,16 @@ iframe#twitter-widget-0 {
 	.archive-row .span2 {
 		width: 17%;
 	}
-		
-}
-
-@media (max-width: 1000px) and (min-width: 816px) {
+	
 	.fb_iframe_widget {
 		clear: both;
 		display: block;
+		position: relative;
 	}
+		
 }
+
+
 
 @media (max-width: 979px) and (min-width: 768px) {
 	#content {
@@ -4223,7 +4223,19 @@ iframe#twitter-widget-0 {
 	.archive-row .span2 {
 		width: 15%;
 	}
+	
+	.fb_iframe_widget {
+		clear: none;
+		display: inline-block;
+	}
 		
+}
+
+@media (max-width: 816px) {
+	.fb_iframe_widget {
+		clear: none;
+		display: inline-block;
+	}
 }
 
 
@@ -4263,7 +4275,7 @@ iframe#twitter-widget-0 {
 	}
 	
 	.mobile-nav .nav>li>a {
-		padding: 7px 10px 5px;
+		padding: 5px 10px 5px;
 	}
 	
 	.site-header-main-nav .nav>li>a {
@@ -4661,6 +4673,13 @@ iframe#twitter-widget-0 {
 	}
 	
 	@media (max-width: 434px) {
+		.fb_iframe_widget {
+			clear: both;
+			display: block;
+		}
+	}
+	
+	@media (max-width: 354px) {
 		.fb_iframe_widget {
 			clear: none;
 			display: inline-block;

@@ -121,6 +121,10 @@ nav.navbar.hidden-phone.main-nav.site-header-main-nav li.dropdown a.dropdown-tog
     display: none;
 }
 
+select#delivery-options {
+    width: 280px;
+}
+
 @media (max-width: 979px) and (min-width: 768px) {
         .row-fluid .span6 {
                 width: 100%;
@@ -183,6 +187,14 @@ nav.navbar.hidden-phone.main-nav.site-header-main-nav li.dropdown a.dropdown-tog
         .mobile-nav-title {
              padding-top: 8px!important;
         }
+        
+        li#top-phone-number {
+		    padding-bottom: 5px;
+		}
+		
+		.site-header-top-nav {
+			margin: -10px;
+		}
 }
  
  /* End Eddie's additions --------------------------------------------*/

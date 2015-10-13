@@ -161,15 +161,15 @@ function loadScript(data)
 <script>
 	window.location.hash = !~window.location.hash.indexOf('login-register') && !'<%= parameters.fragment %>' ? window.location.hash : '<%= parameters.fragment %>';
 </script>
-<script src="<%= session.getAbsoluteUrl('checkout', 'js/Application-01501a447db8.js') %>"></script>
-<script src="<%= session.getAbsoluteUrl('checkout', 'templates/Templates-01501a4f3b81.js') %>"></script>
+<script src="<%= session.getAbsoluteUrl('checkout', 'js/Application-015025c81837.js') %>"></script>
+<script src="<%= session.getAbsoluteUrl('checkout', 'templates/Templates-01502aee53e3.js') %>"></script>
 <script>
 	<% if (login) { %>
 		SC.Application('Checkout').Configuration.currentTouchpoint = 'login';
 	<% } %>
 </script>
 <% if (siteType === 'ADVANCED') { %>
-<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'skins/standard/Styles-014fd7ff9317.css') %>">
+<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'skins/standard/Styles-01503a4731e0.css') %>">
 <% } %>
 <% if (typeof(release_metadata) != 'undefined') { %>
 <!-- <%= JSON.stringify(release_metadata) %> -->

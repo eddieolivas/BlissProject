@@ -195,6 +195,7 @@
       <file name="Application-014f6b8bc991.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="Application-014fd735d53a.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="Application-01501a73ffee.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="Application-01504494a693.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="Configuration.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="Facets.Views.Extended.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="ImageLoader.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
@@ -205,6 +206,7 @@
     </folder>
     <folder name="skins">
       <folder name="standard">
+        <file name="Online Designer Signup" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
         <file name="Styles-014edbbddcbf.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
         <file name="Styles-014f4924898e.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
         <file name="Styles-014f858a67c3.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
@@ -213,10 +215,14 @@
         <file name="Styles-014fd3504597.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
         <file name="Styles-01501b5ff9fc.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
         <file name="Styles-01501b6f75d8.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Styles-0150449a978f.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="Styles-01504eca1dc3.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
         <file name="as-seen-in.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
         <file name="combiner.config" hideInBundle="false" isOnline="false" textFileEncoding="_utf8"/>
         <file name="current-css.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
         <file name="magazine1.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="online-designer-signup.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="online-designer-thanks.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
         <file name="press.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
         <file name="slider-test.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       </folder>
@@ -271,9 +277,6 @@
             <altTagCaption>macro</altTagCaption>
           </file>
           <file name="display_categories_menu_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
-            <altTagCaption>macro</altTagCaption>
-          </file>
-          <file name="header_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
             <altTagCaption>macro</altTagCaption>
           </file>
           <file name="header_profile_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
@@ -463,6 +466,7 @@
       <file name="Templates-014fd79cda07.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="Templates-014fe1b3328f.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="Templates-01501b6de836.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="Templates-01504ef027f0.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
       <file name="category_browse.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
         <altTagCaption>category_browse_tmpl</altTagCaption>
       </file>

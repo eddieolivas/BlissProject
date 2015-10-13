@@ -1,0 +1,46 @@
+<style>
+
+#survey-wrapper {
+   position: relative;
+   padding-bottom: 56.25%;
+   padding-top: 35px;
+   height: 0;
+   overflow: hidden;
+}
+
+#survey-wrapper iframe {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%!important;
+   height: 100%!important;
+   margin-left: 0!important;
+}
+
+@media (max-width: 565px) {
+   #survey-wrapper {
+       padding-bottom: 130%;
+   }
+}
+</style>
+
+    <div id="survey-wrapper">
+    	<script type="text/javascript">		
+                function getUrlVars() {
+var vars = {};
+var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+vars[key] = value;
+});
+return vars;
+}	
+    		var userId = getUrlVars()['customer'].toString();
+    		var userUrlParm = '&custrecord6=' + userId;
+			jQuery('#survey-wrapper').html("<iframe class=\"survey-iframe\" scrolling=\"no\" frameborder=\"0\" src=\"https:\/\/forms.netsuite.com\/app\/site\/crm\/externalcustrecordpage.nl?compid=1259335&formid=12&h=623a5b3788211cfa1f47&" + userUrlParm + "&redirect_count=1&did_javascript_redirect=T\"><\/iframe>");
+		</script>
+<!--
+        <iframe class="survey-iframe" scrolling="no" frameborder="0" src="https://forms.netsuite.com/app/site/crm/externalcustrecordpage.nl?compid=1259335&formid=12&h=623a5b3788211cfa1f47&redirect_count=1&did_javascript_redirect=T" width="1050px;"></iframe>
+-->   
+      
+   </div>
+
+

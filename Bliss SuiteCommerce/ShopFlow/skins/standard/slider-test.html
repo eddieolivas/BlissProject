@@ -6,7 +6,7 @@
  
 <!-- Latest version of jQuery from Google CDN -->
 <!-- You can remove it if jQuery is already included. -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>-->
  
 <!-- MasterSlider main JS file -->
 <script src="masterslider/masterslider.min.js"></script>
@@ -18,8 +18,16 @@
 .ms-bullets {
     bottom: -30px!important;
 }
-</style>
+#mobileslider {
+}
 
+@media (max-width: 767px) {
+    #mobileslider {
+    }
+    #masterslider {
+    }
+}
+</style>
 
 <!-- masterslider -->
 <div class="master-slider ms-skin-default" id="masterslider">
@@ -27,15 +35,14 @@
     <div class="ms-slide">
          
         <!-- slide background -->
-        <img src="/SCA%20Site%20Images/Homepage%20Slider/Desktop/DESK_ColorDuoNavyCoralHomebanner092815.jpg" alt="Navy Corals" data-loader="false"/>     
+        <img class="desktop-slide" src="/SCA%20Site%20Images/Homepage%20Slider/Desktop/DESK_ColorDuoNavyCoralHomebanner092815.jpg" alt="Navy Corals" data-loader="false"/>     
                   
         <a href="http://blisshomeanddesign.com/Style-Library-Products/Colors-And-Textures-Style-Library/Navy-and-Coral-Colors-Textures">Navy Corals</a>
-         
-    </div>
+        
     <!-- end of slide -->
 
     <!-- new slide -->
-    <div class="ms-slide">
+    <div class="ms-slide desktop-slide">
          
         <!-- slide background -->
         <img src="/SCA%20Site%20Images/Homepage%20Slider/Desktop/DESK-FallAccentsHomeBanner.jpg" alt="Fall Accents" data-loader="false"/>     
@@ -47,7 +54,7 @@
     <!-- end of slide -->
      
     <!-- new slide -->
-    <div class="ms-slide">
+    <div class="ms-slide desktop-slide">
          
         <!-- slide background -->
         <img src="/SCA%20Site%20Images/Homepage%20Slider/Desktop/DESK-MediterraneanHomeBanner.jpg" alt="Mediterranean" data-loader="false"/>     
@@ -59,7 +66,7 @@
     <!-- end of slide -->
      
     <!-- new slide -->
-    <div class="ms-slide">
+    <div class="ms-slide desktop-slide">
          
         <!-- slide background -->
         <img src="/site/Bliss_home/HeavyMetalsHomeBanner.jpg" alt="Heavy Metals" data-loader="false"/>     
@@ -70,7 +77,7 @@
     <!-- end of slide -->
 
     <!-- new slide -->
-    <div class="ms-slide">
+    <div class="ms-slide desktop-slide">
          
         <!-- slide background -->
         <img src="/site/Bliss_home/DesignerGildedMirrorHomeBanner.jpg" alt="Gilded Mirrors" data-loader="false"/>     
@@ -81,7 +88,7 @@
     <!-- end of slide -->
 </div>
 <!-- end of masterslider -->
-
+</div>
 
 <script>
     jQuery('#masterslider').masterslider({
@@ -100,4 +107,5 @@
         // more slider controls...
     }
 });
+
 </script>

@@ -47,6 +47,7 @@
 		,	'GoogleAnalytics'
 		,	'GoogleUniversalAnalytics'
 		,	'GoogleAdWords'
+		//,   'Polyvore'
 		,	'Merchandising'
 		,	'CheckoutSkipLogin'
 
@@ -615,6 +616,9 @@ checkoutSteps: [											//an array with the step groups conforming The Checko
 			,	value: 1.00
 			,	label: 'G8nfCOKbtAMQ9s-M4gM'
 			}
+		/*,   polyvore: {
+				id: 'blisshomedesign.com'
+			}*/
 		}
 
 		// Typeahead Settings

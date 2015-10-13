@@ -67,7 +67,7 @@
 <script>SC.ENVIRONMENT.contextError = <%= JSON.stringify(Error) %>;</script>
 <% } %>
 <script src="<%= session.getAbsoluteUrl('checkout', 'js/Application-014ff61b540e.js') %>"></script>
-<script src="<%= session.getAbsoluteUrl('checkout', 'templates/Templates-014fdd901d6e.js') %>"></script>
+<script src="<%= session.getAbsoluteUrl('checkout', 'templates/Templates-01502aedeea7.js') %>"></script>
 
 </head>
 <body>
@@ -88,7 +88,7 @@
 <div id="main" class="main"></div>
 
 <% if (siteType && siteType === 'ADVANCED') { %>
-<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'skins/standard/Styles-014fe1730c82.css') %>">
+<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'skins/standard/Styles-01502ac5267d.css') %>">
 <% } %>
 
 <% if (typeof(release_metadata) != 'undefined') { %>
