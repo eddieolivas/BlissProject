@@ -1,0 +1,96 @@
+<project info="SuiteCloud IDE generated file, do not edit." setAttributesOnUpdate="false">
+  <folder name="BHD Checkout">
+    <folder name="css">
+      <folder name="extensions">
+        <file name="customcheckout.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      </folder>
+      <file name="Customizations-01491046d313.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="combiner.config" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="current-css.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    </folder>
+    <folder name="js">
+      <folder name="extensions">
+        <folder name="OrderWizard">
+          <file name="OrderWizard.View.Extension.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        </folder>
+        <file name="TemplatesLoader.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      </folder>
+      <file name="Application-01471ae1c632.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="combiner.config" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="current.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    </folder>
+    <folder name="templates">
+      <folder name="extensions">
+        <folder name="creditcard">
+          <folder name="macros">
+            <file name="creditcard_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+              <altTagCaption>macro</altTagCaption>
+            </file>
+          </folder>
+        </folder>
+        <folder name="footer">
+          <folder name="macros">
+            <file name="footer_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+              <altTagCaption>macro</altTagCaption>
+            </file>
+          </folder>
+        </folder>
+        <folder name="globals">
+          <folder name="macros">
+            <file name="breadcrumb_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+              <altTagCaption>macro</altTagCaption>
+            </file>
+          </folder>
+        </folder>
+        <folder name="login_register">
+          <file name="login_register.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        </folder>
+        <folder name="order_wizard">
+          <folder name="macros">
+            <file name="wizard_step_navigation_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+              <altTagCaption>macro</altTagCaption>
+            </file>
+          </folder>
+          <file name="order_wizard_confirmation_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>order_wizard_confirmation_module_tmpl</altTagCaption>
+          </file>
+          <file name="order_wizard_layout.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>order_wizard_layout_tmpl</altTagCaption>
+          </file>
+          <file name="order_wizard_paymentmethod_giftcertificates_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>order_wizard_paymentmethod_giftcertificates_module_tmpl</altTagCaption>
+          </file>
+          <file name="order_wizard_showshipments_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>order_wizard_showshipments_module_tmpl</altTagCaption>
+          </file>
+        </folder>
+        <folder name="shopping_cart">
+          <folder name="macros">
+            <file name="checkout_cart_summary_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+              <altTagCaption>macro</altTagCaption>
+            </file>
+            <file name="shopping_cart_item_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+              <altTagCaption>macro</altTagCaption>
+            </file>
+            <file name="shopping_cart_summary_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+              <altTagCaption>macro</altTagCaption>
+            </file>
+            <file name="show_shopping_cart_item_price_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+              <altTagCaption>macro</altTagCaption>
+            </file>
+          </folder>
+          <file name="shopping_cart.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>shopping_cart_tmpl</altTagCaption>
+          </file>
+        </folder>
+        <file name="layout.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>layout_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <file name="Templates-014aca106d0b.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="current.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="templates.config" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    </folder>
+    <file name="customizations.ssp" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+  </folder>
+</project>

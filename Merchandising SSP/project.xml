@@ -1,0 +1,16 @@
+<project info="SuiteCloud IDE generated file, do not edit." setAttributesOnUpdate="false">
+  <folder name="Merchandising SSP">
+    <folder name="services">
+      <file name="merchandising.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    </folder>
+    <folder name="src">
+      <file name="DM_BI_Merchandising.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="DM_CS_FilterPopup.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="DM_CS_MerchandisingRule.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="DM_SS_FilterPopup.js" hideInBundle="true" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="DM_SS_Library.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="DM_UE_MerchandisingRule.js" hideInBundle="true" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="DM_Util_Shared.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    </folder>
+  </folder>
+</project>

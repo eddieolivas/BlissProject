@@ -1,0 +1,152 @@
+<%
+	var SiteSettings
+	,	siteType
+	,	Error;
+	try {
+		SiteSettings = Application.getModel('SiteSettings').get()
+		siteType = SiteSettings.sitetype
+	} catch(e) {
+		Error = Application.processError(e);
+	}
+%>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Shopping Cart</title>
+	<% if (siteType && siteType === 'ADVANCED') { %>
+		<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'skins/standard/styles.css') %>">
+	<% } else { %>
+		<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'skins/standard/styles-sitebuilder.css') %>">
+	<% } %>
+	<%= (siteType && siteType === 'STANDARD') ? getPageFullHead() : '' %>
+	<!--[if lt IE 9]> <script src="<%= session.getAbsoluteUrl('checkout', 'js/html5shiv.js') %>"></script> <![endif]-->
+	<!--[if lt IE 8]> <script src="<%= session.getAbsoluteUrl('checkout', 'js/json2.js') %>"></script> <![endif]-->
+</head>
+<body>
+	<noscript>
+		<div class="alert alert-error alert-noscript">
+			<strong>Javascript is disabled on your browser.</strong><br>
+			To view this site, you must enable JavaScript or upgrade to a JavaScript-capable browser.
+		</div>
+	</noscript>
+        <GOOGLE_TAG_MGR>
+	<% if (siteType && siteType === 'STANDARD') { %>
+		<div id='div__header' style="overflow: hidden;" class='noprint' leftmargin='0' topmargin='0' marginwidth='1' >
+			<table border='0' cellspacing='0' cellpadding='0' width='100%'>
+				<%= getPageTop() %>
+			</table>
+		</div>
+	<% } %>
+	<div id="main"></div>
+	<script src="<%= session.getAbsoluteUrl('checkout', 'js/src/core/console.js') %>"></script>
+	<script src="<%= session.getAbsoluteUrl('checkout', 'sc.environment.ssp?lang=' + (request.getParameter('lang') || '') + '&cur=' + (request.getParameter('cur') || '') ) %>"></script>
+	<% if (Error) { %>
+		<script>SC.ENVIRONMENT.contextError = <%= JSON.stringify(Error) %>;</script>
+	<% } %>
+	<script src="<%= session.getAbsoluteUrl('checkout', 'js/Application-01461ae28132.js') %>"></script>
+	<script src="<%= session.getAbsoluteUrl('checkout', 'templates/Templates-014f767b6036.js') %>"></script>
+	<script>
+
+		var Checkout = SC.Application('Checkout')
+
+		if (!window.location.hash && !_.parseUrlOptions(location.search).fragment)
+		{
+			window.location.hash = 'cart';
+		}
+
+		_.each(Checkout.Configuration.modules, function(module, index)
+		{
+			if (module === 'Cart' || module[0] === 'Cart')
+			{
+				if (_.isObject(module[1]))
+				{
+					module[1].startRouter = true;
+				}
+				else
+				{
+					Checkout.Configuration.modules[index] = ['Cart', {startRouter: true}];
+				}
+			}
+		});
+
+		Checkout.Configuration.currentTouchpoint = 'viewcart';
+		Checkout.Configuration.startCheckoutWizard = false;
+
+	</script>
+
+	<!-- To point towards BHD Checkout -->
+	<script src="<%= session.getAbsoluteUrl('checkout', '/../BHDCheckout/customizations.ssp') %>"></script>
+
+	<script src="<%= session.getAbsoluteUrl('checkout', 'starter.js') %>"></script>
+
+	<div id="footer">
+		<div id="footerLinks">
+			<div id="footerLinksInner">
+
+				<div style="width:1050px;">
+					<ul class="xfooter_links">
+						<li style="margin:0 !important; padding-top:30px;"><a href="/ABOUT-US/">OUR STORY</a></li>
+						<li style="padding-top:30px;"><a href="/CONTACT-INFORMATION">CONTACT</a></li>
+						<li style="padding-top:30px;"><a href="/Bliss-Home-And-Design-Features-And-Information/Policies-And-Procedures">PRIVACY POLICY</a></li>
+						<li style="padding-top:30px;"><a href="/Designer-Signup">TO THE TRADE</a></li>
+						<li style="padding-top:30px;"><a href="/Bliss-Home-And-Design-Features-And-Information/Policies-And-Procedures/">SHIPPING/RETURNS</a></li>
+
+						<li style="margin: 0; padding-left: 40px;">	
+							<div id="xfooter_links_col_6">
+								<div style="width:250px; float:left; margin-left:-43px; padding:20px 0 0 0px;">
+									<ul class="flags" style="/*width:225px;*/ color:#ffffff; float:left; padding:0;">
+										<li style="display:inline; color:#ffffff; float:left; padding-right:10px;"><a target="_blank" href="http://www.facebook.com/BlissHomeAndDesign"><img style="padding:0 0 0 0px; float:left;" src="/site/Bliss_home/Facebook_SiteButton25x25.png" width="25" height="25" border="0"></a></li>
+										<li style="display:inline; color:#ffffff; float:left; padding-right:10px"><a target="_blank" href="http://instagram.com/blisshomeanddesign"><img style="padding:0 0 0 0px; float:left;" src="/site/Bliss_home/Instagram_SiteButton25x25.png" width="25" height="25" border="0"></a></li>
+										<li style="display:inline; color:#ffffff; float:left; padding-right:10px"><a target="_blank" href="http://pinterest.com/blisshomedesign/"><img style="padding:0 0 0 0; float:left;" src="/site/Bliss_home/Pinterest_SiteButton25x25.png" width="25" height="25" border="0"></a></li>
+										<li style="display:inline; color:#ffffff; float:left; padding-right:10px"><a target="_blank" href="http://twitter.com/BlissHomeDesign"><img style="padding:0 0 0 0px; float:left;" src="/site/Bliss_home/Twitter_SiteButton25x25.png" width="25" height="25" border="0"></a></li>
+										<li style="display:inline; color:#ffffff; float:left; padding-right:10px"><a target="_blank" href="https://plus.google.com/b/108114032974613439233/108114032974613439233/posts"><img style="padding:0 0 0 0px; float:left;" src="/site/Bliss_home/GooglePlus_SiteButton25x25.png" width="25" height="25" border="0"></a></li>
+										<li style="display:inline; color:#ffffff; float:left; padding-right:10px"><a target="_blank" href="http://www.houzz.com/pro/blisshomeanddesign/bliss-home-and-design"><img style="padding:0 0 0 0px; float:left;" src="/site/Bliss_home/Houzz_SiteButton25x25.png" width="25" height="25" border="0"></a></li>
+										<li style="display:inline; color:#ffffff; float:left; padding-right:10px"><a target="_blank" href="http://blog.blisshomeanddesign.com/"><img style="padding:0 0 0 0px; float:left;" src="/site/Bliss_home/BBDBlog-Button_25x25.jpg" width="25" height="25" border="0"></a></li>
+										<li style="display:inline; color:#ffffff;"><a target="_blank" href="http://blisshomeanddesign.polyvore.com/"><img style="padding:0 0 0 0px; float:left;" src="/site/Bliss_home/Polyvore_SiteButton25x25.png" width="25" height="25" border="0"></a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+
+						<li style="margin:0;">
+							<div id="xfooter_links_col_5">
+								<div class="emailform-div" style="width:200px; margin-left:25px;">
+
+									<div style="width:200px; float:left; font-family:Arial; font-size:10px; padding:7px 0 5px 0; color:#B2B2B2;">SUBSCRIBE TO OUR NEWSLETTER</div>
+
+									<input type='text' id="new-email" name='email' maxlength=50 value="    your email address" onclick="javascript:select();" onfocus="checkclear(this)"/>
+
+									<input type="button" id="email-button" style="float:left; width:47px; height:20px; vertical-align:middle; cursor:pointer; background-color:#ffffff; background-image:url(/site/Bliss_home/newsletter-signup-button.png); background-repeat:repeat-none; border:0;"> 
+
+									<script type="text/javascript">
+										$("#email-button").click(function(){
+											var emailString = $("#new-email").val();
+
+											if((emailString.indexOf("new-email")!=-1) ||
+											  ($("#new-email").val() == ""))
+												document.location = "/Bliss-Home-And-Design-Features-And-Information/Email-Signup?mail=";
+
+											else if($("#new-email").val() != "")
+												document.location = "/Bliss-Home-And-Design-Features-And-Information/Email-Signup?mail="+ $("#new-email").val();
+
+										});
+									</script>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>		
+
+		<div style="width:1050px; float:left; text-align:center; color: #A4A4A4; font-size:10px; font-family:Arial; letter-spacing:1px; padding-top: 30px;">Â© 2015 Bliss Home and Design, All Rights Reserved.</div>
+	</div>
+
+	<!-- Barilliance tag-->
+	<script type="text/javascript"> 
+		var cbarProtocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cscript src='" + cbarProtocol + "s3.amazonaws.com/cdn.barilliance.com/blisshomeanddesign.com/cbar.js.php'  type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<!-- End Barilliance tag-->
+</body>
+</html>

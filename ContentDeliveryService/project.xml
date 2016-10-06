@@ -1,0 +1,15 @@
+<project info="SuiteCloud IDE generated file, do not edit." setAttributesOnUpdate="false">
+  <folder name="ContentDeliveryService">
+    <folder name="services">
+      <file name="compute.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="page.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="url.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    </folder>
+    <folder name="ssp_libraries">
+      <file name="ContentDeliveryService.Models.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="backbone.validation-0.5.2.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="commons.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="underscore-1.4.2.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    </folder>
+  </folder>
+</project>

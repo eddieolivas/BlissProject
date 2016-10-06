@@ -1,0 +1,235 @@
+<project info="SuiteCloud IDE generated file, do not edit." setAttributesOnUpdate="false">
+  <folder name="Checkout-Old">
+    <folder name="css">
+      <file name="blisshomeanddesign.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    </folder>
+    <folder name="js">
+      <folder name="ps">
+        <folder name="src">
+          <folder name="app">
+            <file name="Configuration.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          </folder>
+        </folder>
+      </folder>
+      <file name=".jshintrc" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="Application-014f6b07243f.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="combiner.config" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="current.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="html5shiv.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="json2.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    </folder>
+    <folder name="skins">
+      <folder name="standard">
+        <folder name="bootstrap">
+          <file name="accordion.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="alerts.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="breadcrumbs.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="button-groups.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="buttons.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="carousel.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="close.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="code.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="component-animations.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="dropdowns.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="forms.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="grid.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="hero-unit.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="labels-badges.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="layouts.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="media.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="mixins.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="modals.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="navbar.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="navs.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="pager.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="pagination.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="popovers.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="progress-bars.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="reset.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="responsive-1200px-min.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="responsive-767px-max.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="responsive-768px-979px.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="responsive-navbar.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="responsive-utilities.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="scaffolding.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="sprites.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="tables.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="thumbnails.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="tooltip.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="type.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="utilities.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="variables.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="wells.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        </folder>
+        <folder name="site">
+          <folder name="checkout">
+            <file name="billing-module.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="cart-summary.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="confirmation.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="creditcards.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="delivery-method.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="gift-certificates.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="login-register.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="order-wizard-layout.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="wizard-step-navigation.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          </folder>
+          <folder name="item-list">
+            <file name="facet-browse.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="facet-header.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="faceted-nav.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="item-cell.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          </folder>
+          <file name="accordion-icons.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="address.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="back-to-top.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="base.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="breadcrumbs.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="footer.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="form-tweeks.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="header.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="headings.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="home.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="image-gallery.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="item-details.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="mini-cart.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="modals-hacks.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="navbar-tweeks.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="rating.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="reviews.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="shopping-cart.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="slider.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="tiles.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="variables.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="wells.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        </folder>
+        <file name="styles-sitebuilder.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="styles-sitebuilder.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="styles.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="styles.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      </folder>
+    </folder>
+    <folder name="templates">
+      <folder name="address">
+        <folder name="macros">
+          <file name="address_form_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="address_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        </folder>
+        <file name="address.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      </folder>
+      <folder name="creditcard">
+        <folder name="macros">
+          <file name="creditcard_form_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="creditcard_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="creditcard_security_number_form_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        </folder>
+        <file name="creditcard.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      </folder>
+      <folder name="footer">
+        <folder name="macros">
+          <file name="footer_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="footer_navigation.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="simplified_footer_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        </folder>
+      </folder>
+      <folder name="globals">
+        <folder name="macros">
+          <file name="back_to_top_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="breadcrumb_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="countries_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="currencies_selector_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="display_in_rows_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="format_payment_method.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="host_selector_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="language_selector_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="message_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="modal_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="pagination_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="related_item_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="show_item_price_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="states_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        </folder>
+        <file name="iframe.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="internal_error.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="page_not_found.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      </folder>
+      <folder name="item_details">
+        <folder name="macros">
+          <file name="item_details_image_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="item_details_option_color_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="item_details_option_dropdown_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="item_details_option_radio_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="item_details_option_text_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="item_details_option_tile_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="item_details_reviews_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="item_details_stock_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="item_image_gallery.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        </folder>
+        <file name="item_details.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="quick_view.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      </folder>
+      <folder name="login_register">
+        <folder name="macros">
+          <file name="register_form_field_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        </folder>
+        <file name="checkout_as_guest.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="forgot_password.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="login.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="login_register.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="register.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="reset_password.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      </folder>
+      <folder name="merchandising">
+        <folder name="macros">
+          <file name="merchandising_zone_custom_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="merchandising_zone_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        </folder>
+      </folder>
+      <folder name="order_wizard">
+        <folder name="macros">
+          <file name="wizard_step_navigation_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        </folder>
+        <file name="order_wizard_address_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="order_wizard_confirmation_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="order_wizard_layout.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="order_wizard_paymentmethod_creditcard_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="order_wizard_paymentmethod_giftcertificates_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="order_wizard_paymentmethod_invoice_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="order_wizard_paymentmethod_paypal_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="order_wizard_paymentmethod_selector_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="order_wizard_register_guest_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="order_wizard_registeremail_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="order_wizard_shipmethod_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="order_wizard_showpayments_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="order_wizard_showshipments_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="order_wizard_termsandconditions_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      </folder>
+      <folder name="shopping_cart">
+        <folder name="macros">
+          <file name="checkout_cart_summary_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="promocode_form_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="shopping_cart_item_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="shopping_cart_option_color_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="shopping_cart_option_default_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="shopping_cart_summary_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        </folder>
+        <file name="shopping_cart.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="shopping_cart_confirmation_modal.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      </folder>
+      <folder name="wizard">
+        <file name="accordion_wizard.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="wizard.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="wizard_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="wizard_step.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      </folder>
+      <file name="Templates-014f6a48017b.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="current.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="layout.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="templates.config" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    </folder>
+    <file name=".DS_Store" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    <file name="index.ssp" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    <file name="login.ssp" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    <file name="sc.environment.ssp" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    <file name="starter.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+  </folder>
+</project>

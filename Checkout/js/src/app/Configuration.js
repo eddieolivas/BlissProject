@@ -47,6 +47,7 @@
 		,	'GoogleAnalytics'
 		,	'GoogleUniversalAnalytics'
 		,	'GoogleAdWords'
+		//,   'Polyvore'
 		,	'Merchandising'
 		,	'CheckoutSkipLogin'
 
@@ -601,8 +602,8 @@ checkoutSteps: [											//an array with the step groups conforming The Checko
 	,	tracking: {
 			// [Google Universal Analytics](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 		 	googleUniversalAnalytics: {
-				propertyID: ''
-			,	domainName: ''
+				propertyID: 'UA-32592647-1'
+			,	domainName: 'account.blisshomeanddesign.com'
 			}
 			// [Google Analytics](https://developers.google.com/analytics/devguides/collection/gajs/)
 		,	google: {
@@ -611,10 +612,13 @@ checkoutSteps: [											//an array with the step groups conforming The Checko
 			}
 			// [Google AdWords](https://support.google.com/adwords/answer/1722054/)
 		,	googleAdWordsConversion: {
-				id: 0
-			,	value: 0
-			,	label: ''
+				id: 1011034102
+			,	value: 1.00
+			,	label: 'G8nfCOKbtAMQ9s-M4gM'
 			}
+		/*,   polyvore: {
+				id: 'blisshomedesign.com'
+			}*/
 		}
 
 		// Typeahead Settings

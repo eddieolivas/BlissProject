@@ -6,6 +6,8 @@
 
         var configuration = application.Configuration;
 
+        application.addModule('Cart.Extend');
+
         _.extend(configuration, {
 
         });

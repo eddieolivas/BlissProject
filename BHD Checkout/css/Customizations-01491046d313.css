@@ -1,0 +1,268 @@
+@media only screen 
+	and (min-device-width : 768px) 
+	and (max-device-width : 1024px) 
+	and (orientation : portrait) {
+		body{
+			zoom:91%;
+		}
+}
+
+@media only screen 
+	and (min-device-width : 320px) 
+	and (max-device-width : 568px) 
+	and (orientation : portrait) { 
+		body{
+			zoom:91%;
+		}
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+		body{
+			zoom:91%;
+		}
+}
+
+body {
+    margin:0 auto;
+width: 1080px;
+}
+
+#main h3, #main h2, #main h1{
+    color: #A6C6C7;
+}
+
+#main{
+    margin-bottom: 10px;
+}
+
+/*Author:Skaur & Brian  WR7888    
+/*The background color changed for the checkout cart summary*/
+#main .checkout-cart-summary{
+    margin-top: 0px;
+    background-color:#f8f8f8;
+}
+#main .checkout-cart-summary-header{
+    margin-top: 0px;
+    background-image:none;
+    background-color:#f8f8f8;
+}
+
+.register-form-legend{
+    color: #A4A4A4;
+}
+
+#main #layout .breadcrumb{
+    float: left;
+}
+
+#main #layout .breadcrumb a,
+#main #layout .breadcrumb .active,
+#main #layout .breadcrumb span{
+    font-size: 14px;
+    color: #A6C6C7;
+}
+
+#main #layout .shopping-cart-header{
+    clear: both;
+}
+
+#main .wizard-step-link a,
+#main .wizard-step-link.disabled a{
+    font-size: 14px;
+    color: #A6C6C7;
+}
+
+#main #layout .shopping-cart .sku,
+#main #layout .shopping-cart .btn.remove,
+#main #layout .shopping-cart .btn.continue-shopping,
+#main #layout .shopping-cart .cart-item-details,
+#main #layout .msg-confirmation,
+
+#main #layout .credit-card-info,
+#main #layout .msg-continue-shopping,
+#main #layout .btn-back,
+#main #layout .btn-apply,
+#main #layout #checkout-as-guest .register,
+#main #layout .amount,
+#main #layout .checkout-as-guest p,
+#main #layout .wizard-step-content,
+#main #layout .wizard-content .name,
+#main #layout .wizard-content .sku,
+#main #layout .section-header,
+#main #layout .delivery-options-header,
+#main #layout .checkout-summary-items p, 
+#main #layout .checkout-summary-items strong, 
+#main #layout .checkout-summary-items div, 
+#main #layout .checkout-cart-summary p,
+#main #layout .shopping-cart-summary p{
+    color: #a4a4a4 !important;
+}
+
+#main .well{
+    background-color: #FFF; /*f8f8f8*/
+}
+
+#main .cart-summary-subtotal, #main .cart-summary-total{
+    border-top: #d9d9d9 1px solid;
+}
+
+#header_content{
+    margin-top: -8px;
+}
+
+#layout #login-view, #layout .new-customer, .wizard-content{
+    background-color: #f8f8f8;
+    padding: 0;
+}
+
+#main .login-view{
+    border-right: none;
+}
+
+#main .btn-link, #main label, #main small, #main a, #login-view p{
+    color: #a4a4a4;
+}
+
+#main .btn-link:hover, #main a:hover {
+    color: #A6C6C7;
+}
+
+#main .lead-price, #main .cart-item-details .lead-price {
+    color: #a4a4a4; 
+}
+
+#main .container, #main .navbar-static-top .container, #main .navbar-fixed-top .container, #main .navbar-fixed-bottom .container{
+    width: 1050px;  
+}
+
+#main .btn-primary {
+    color: #A4A4A4;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    background-color: #f7f7f7;
+    background-image: -moz-linear-gradient(top,#f7f7f7 ,#f7f7f7);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#f7f7f7 ),to(#f7f7f7));
+    background-image: -webkit-linear-gradient(top,#f7f7f7 ,#f7f7f7);
+    background-image: -o-linear-gradient(top,#f7f7f7 ,#f7f7f7);
+    background-image: linear-gradient(to bottom,#f7f7f7 ,#f7f7f7);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7 ',endColorstr='#f7f7f7',GradientType=0);
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+#main .btn-primary.active,
+#main .btn-warning.active,
+#main .btn-danger.active,
+#main .btn-success.active,
+#main .btn-info.active,
+#main .btn-inverse.active {
+    
+}
+
+#main .btn-primary:hover, 
+#main .btn-primary:focus, 
+#main .btn-primary:active, 
+#main .btn-primary.active, 
+#main .btn-primary.disabled, 
+#main .btn-primary[disabled] {
+    color:#A6C6C7;
+    background-color:#f7f7f7;
+    *background-color:#f7f7f7;
+}
+#main .btn-primary:active,
+#main .btn-primary.active {
+    
+}
+
+#main .btn-primary .caret,#main .btn-warning .caret,
+#main .btn-danger .caret,
+#main .btn-info .caret,
+#main .btn-success .caret,
+#main .btn-inverse .caret {
+    border-top-color:#fff;
+    border-bottom-color:#fff
+}
+
+#main .step-navigation-buttons {
+    padding-bottom: 10px;
+}
+
+/*Author:Izz kaddoura & hadi bassil  WR7888    
+/*The 'Remove' button in the cart spacing removed*/
+#main .cart-item-actions {
+    border:none;
+    margin-top:0;
+    padding-top:0;
+}
+ /*the padding of the background around Order Summary and the main checkout panel*/
+#main .step-header h2 {
+    margin: 0;
+    padding-top: 15px;
+}
+/*the Pay with a Gift Certificate Plus icon on the payment page padding*/
+#main i.icon-plus-sign.pull-right {
+    padding-top: 5px;
+    padding-right: -20px;
+}
+
+/*the Pay with a Gift Certificate Minus icon on the payment page padding*/
+#main i.icon-minus-sign.pull-right {
+    padding-top: 5px;
+    padding-right: -20px;
+}
+
+
+
+
+
+#main article.orderwizard-module.orderwizard-module-paymentmethod-giftcertificates.module-rendered a {
+    position: relative;
+}
+
+/*applying the 'Continue' button style to the 'Back' button on the payment page*/
+#main button.btn.btn-large.btn-back,
+#main button.btn.btn-large.btn-back:hover {
+    background-color: #f7f7f7;
+    width: 150px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    background-image: -moz-linear-gradient(top,#f7f7f7 ,#f7f7f7);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#f7f7f7 ),to(#f7f7f7));
+    background-image: -webkit-linear-gradient(top,#f7f7f7 ,#f7f7f7);
+    background-image: -o-linear-gradient(top,#f7f7f7 ,#f7f7f7);
+    background-image: linear-gradient(to bottom,#f7f7f7 ,#f7f7f7);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7 ',endColorstr='#f7f7f7',GradientType=0);
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+
+}
+#main #layout .btn-back:hover {
+    color: #A6C6C7 !important;
+}
+
+#main .help-block {
+    display:block;
+    margin-bottom: 9px;
+    color: #a4a4a4;
+    padding-bottom: 10px;
+    
+}
+#main .checkbox {
+    margin-left: 5px;
+    min-height: 18px;
+    padding-left: 20px;
+    float:none;
+}
+
+#main .same-as-address input[type="checkbox"] {
+    float:none;
+}
+#main .billaddress-isresidential input[type="checkbox"] {
+    float:none;
+}
+/*End of WR7888*/
+
+#main .span6 {
+    width: 500px;
+}

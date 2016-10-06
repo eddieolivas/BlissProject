@@ -1,0 +1,31 @@
+<%
+	var continueURL = '/'
+	,	touchpoint = true
+        ,       model = view.model;
+	if(SC.ENVIRONMENT.siteSettings.iswsdk && SC.ENVIRONMENT.siteSettings.wsdkcancelcarturl){
+		continueURL = SC.ENVIRONMENT.siteSettings.wsdkcancelcarturl;
+		touchpoint = false;
+	}
+%>
+<div class="alert alert-block alert-success fade in thanks-panel-info">
+	<h3 class="alert-heading"><%= _('Thank you for shopping with us!').translate() %></h3>
+		<p><%= _('Your order number is').translate(view.confirmationNumber) %>
+		<big><strong>
+		<% if(view.wizard.application.getUser().get('isGuest') === 'F' && SC.ENVIRONMENT.siteSettings.touchpoints.customercenter){ %>
+			<a class="view-order-details" href="#" data-touchpoint="customercenter" data-hashtag="#/ordershistory/view/<%= view.orderId %>"><%= view.confirmationNumber %></a>.
+		<% } else { %>
+			<%= view.confirmationNumber %>
+		<% } %>
+		</strong></big>
+	</p>
+	<p><%= _('We received your order and will process it right away.').translate() %></p>
+	<% if (view.options.additional_confirmation_message) { %>
+		<p class="additional_confirmation_message"><%= view.options.additional_confirmation_message %></p>
+	<% } %>
+	<p class="confirmation-button-container">
+		<a class="btn btn-secondary" href="<%= continueURL %>" <%= touchpoint ? 'data-touchpoint="home"' : '' %> data-hashtag="#/"><%= _('Continue shopping').translate() %></a>
+	</p>
+</div>
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5013637"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5013637&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+<script>
+var uetq = uetq || [];  uetq.push({ 'gv': <%= model.attributes.summary.subtotal %> }); </script>

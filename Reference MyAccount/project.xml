@@ -1,0 +1,1270 @@
+<project info="SuiteCloud IDE generated file, do not edit." setAttributesOnUpdate="false">
+  <folder name="Reference MyAccount">
+    <folder name="img">
+      <file name="ajax-loader.gif" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="american.png" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="cvv_all_cards.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="cvv_american_card.jpg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="discover.png" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="favicon.ico" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="glyphicons-halflings-white.png" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="glyphicons-halflings.png" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="maestro.png" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="main-nav-bg.png" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="master.png" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="no_image_available.jpeg" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="sprite.png" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="star.png" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="visa.png" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    </folder>
+    <folder name="js">
+      <folder name="libs">
+        <file name="backbone.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="backbone.validation.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="bignumber.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="bootstrap.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="jquery.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="require.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="underscore.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      </folder>
+      <folder name="src">
+        <folder name="app">
+          <folder name="modules">
+            <folder name="Address">
+              <file name="Address.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Address.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Address.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Address.Views.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Address.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="AjaxRequestsKiller">
+              <file name="AjaxRequestsKiller.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="BackToTop">
+              <file name="BackToTop.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Balance">
+              <file name="Balance.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Balance.View.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Balance.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Cart">
+              <file name="Cart.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Cart.Views.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Cart.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="CaseManagement">
+              <file name="Case.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Case.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Case.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Case.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="CaseCreate.View.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="CaseDetail.View.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="CaseFields.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="CaseList.View.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Content">
+              <file name="Content.DataModels.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Content.EnhancedViews.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Content.LandingPages.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Content.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="CookieWarningBanner">
+              <file name="CookieWarningBanner.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="CreditCard">
+              <file name="CreditCard.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="CreditCard.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="CreditCard.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="CreditCard.Views.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="CreditCard.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="CreditMemo">
+              <file name="CreditMemo.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="CreditMemo.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="CreditMemo.Views.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="CreditMemo.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="CustomerPayment">
+              <file name="CustomerPayment.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="CustomerPayment.Views.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="CustomerPayment.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Deposit">
+              <file name="Deposit.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Deposit.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Deposit.Views.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Deposit.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="DepositApplication">
+              <file name="DepositApplication.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="DepositApplication.Views.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="DepositApplication.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="ErrorManagement">
+              <file name="ErrorManagement.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Facets">
+              <file name="Facets.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Facets.Translator.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="GoogleAnalytics">
+              <file name="GoogleAnalytics.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="GoogleUniversalAnalytics">
+              <file name="GoogleUniversalAnalytics.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Invoice">
+              <file name="Invoice.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Invoice.Details.View.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Invoice.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Invoice.OpenList.View.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Invoice.PaidList.View.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Invoice.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Invoice.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="InvoiceDepositApplication.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="InvoiceDepositApplication.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="InvoicePayment.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="InvoicePayment.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="ItemDetails">
+              <file name="ItemDetails.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ItemDetails.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ItemDetails.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ItemDetails.View.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ItemDetails.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="ItemOptionsHelper">
+              <file name="ItemOptionsHelper.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="ListHeader">
+              <file name="ListHeader.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="LivePayment">
+              <file name="LivePayment.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="LivePayment.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Merchandising">
+              <file name="Merchandising.Context.DefaultHandlers.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Merchandising.Context.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Merchandising.ItemCollection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Merchandising.Rule.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Merchandising.Zone.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Merchandising.jQueryPlugin.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Merchandising.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="MultiCurrencySupport">
+              <file name="MultiCurrencySupport.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="MultiHostSupport">
+              <file name="MultiHostSupport.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="NavigationHelper">
+              <file name="NavigationHelper.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Order">
+              <file name="LiveOrder.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="LiveOrder.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Order.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="OrderFulfillment.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="OrderFulfillment.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="OrderLine.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="OrderLine.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="OrderPaymentmethod.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="OrderPaymentmethod.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="OrderShipmethod.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="OrderShipmethod.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PlacedOrder.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PlacedOrder.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PlacedOrder.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="OrderHistory">
+              <file name="OrderHistory.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="OrderHistory.Views.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="OrderHistory.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="OrderItem">
+              <file name="OrderItem.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="OrderItem.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="OrderItem.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="OrderItem.Views.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="OrderItem.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="OrderWizard">
+              <file name="OrderWizard.Module.Address.Billing.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="OrderWizard.Module.Address.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="OrderWizard.Module.PaymentMethod.Creditcard.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="OrderWizard.Module.PaymentMethod.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="OrderWizard.Module.ShowPayments.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="PaymentWizard">
+              <file name="PaymentWizard.CreditTransaction.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PaymentWizard.CreditTransaction.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PaymentWizard.EditAmount.View.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PaymentWizard.Module.Addresses.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PaymentWizard.Module.Confirmation.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PaymentWizard.Module.ConfirmationNavigation.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PaymentWizard.Module.CreditTransaction.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PaymentWizard.Module.Invoice.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PaymentWizard.Module.PaymentMethod.Creditcard.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PaymentWizard.Module.ShowCreditTransaction.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PaymentWizard.Module.ShowInvoices.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PaymentWizard.Module.ShowPayments.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PaymentWizard.Module.ShowTotal.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PaymentWizard.Module.Summary.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PaymentWizard.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PaymentWizard.Step.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PaymentWizard.View.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PaymentWizard.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="PrintStatement">
+              <file name="PrintStatement.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PrintStatement.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PrintStatement.Views.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="PrintStatement.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="ProductList">
+              <file name="ProductList.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ProductList.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ProductList.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ProductList.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ProductListAddedToCart.View.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ProductListControl.Views.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ProductListCreation.View.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ProductListDeletion.View.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ProductListDetails.View.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ProductListItem.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ProductListItem.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ProductListItemEdit.View.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ProductListLists.View.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Profile">
+              <file name="Profile.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Profile.UpdatePassword.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Profile.Views.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Profile.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Quote">
+              <file name="Quote.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Quote.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Quote.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Quote.Views.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Quote.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Receipt">
+              <file name="Receipt.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Receipt.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Receipt.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Receipt.Views.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Receipt.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Responsive">
+              <file name="Responsive.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="ReturnAuthorization">
+              <file name="ReturnAuthorization.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ReturnAuthorization.GetReturnableLines.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ReturnAuthorization.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ReturnAuthorization.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ReturnAuthorization.Views.Cancel.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ReturnAuthorization.Views.Confirmation.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ReturnAuthorization.Views.Detail.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ReturnAuthorization.Views.Form.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ReturnAuthorization.Views.List.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ReturnAuthorization.Views.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="ReturnAuthorization.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Session">
+              <file name="Session.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="SiteSearch">
+              <file name="SiteSearch.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="TypeAhead.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="TrackingServices">
+              <file name="TrackingServices.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="TransactionHistory">
+              <file name="TransactionHistory.Collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="TransactionHistory.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="TransactionHistory.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="TransactionHistory.Views.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="TransactionHistory.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="UrlHelper">
+              <file name="UrlHelper.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="User">
+              <file name="User.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Wizard">
+              <file name="Wizard.Module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Wizard.Router.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Wizard.Step.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Wizard.StepGroup.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Wizard.View.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Wizard.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+          </folder>
+          <file name="Application.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="Configuration.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="ItemsKeyMapping.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        </folder>
+        <folder name="core">
+          <folder name="extras">
+            <file name="ApplicationSkeleton.Layout.showContent.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="ApplicationSkeleton.Layout.showInModal.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="ApplicationSkeleton.Tracking.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="Backbone.Model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="Backbone.Sync.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="Backbone.Validation.callbacks.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="Backbone.View.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="Backbone.View.render.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="Backbone.View.saveForm.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="Backbone.View.toggleReset.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="Backbone.cachedSync.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="MenuTree.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="String.format.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="Underscore.templates.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="jQuery.ajaxSetup.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="jQuery.serializeObject.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          </folder>
+          <file name="ApplicationSkeleton.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="Main.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="Utils.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        </folder>
+      </folder>
+      <folder name="utils">
+        <file name="BootUtilities.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="html5shiv.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="json2.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      </folder>
+      <file name=".jshintrc" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="Starter.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="combiner.config" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    </folder>
+    <folder name="languages">
+      <file name="cs_CZ.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="da_DK.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="de_DE.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="en.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="en_US.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="es_AR.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="es_ES.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="fr_CA.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="fr_FR.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="it_IT.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="ja_JP.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="ko_KR.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="nl_NL.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="pt_BR.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="ru_RU.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="sv_SE.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="th_TH.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="zh_CN.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="zh_TW.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    </folder>
+    <folder name="services">
+      <file name=".jshintrc" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="address.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="case-fields.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="case.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="credit-memo.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="creditcard.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="deposit-application.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="deposit.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="live-order-line.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="live-order.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="live-payment.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="orderitems.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="payment.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="placed-order.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="print-statement.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="product-list-item.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="product-list.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="profile.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="quote.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="receipt.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="return-authorization.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="transaction-history.ss" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    </folder>
+    <folder name="skins">
+      <folder name="standard">
+        <folder name="bootstrap">
+          <file name="accordion.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="alerts.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="breadcrumbs.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="button-groups.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="buttons.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="carousel.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="close.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="code.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="component-animations.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="dropdowns.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="forms.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="grid.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="hero-unit.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="labels-badges.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="layouts.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="media.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="mixins.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="modals.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="navbar.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="navs.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="pager.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="pagination.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="popovers.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="progress-bars.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="reset.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="responsive-1200px-min.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="responsive-767px-max.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="responsive-768px-979px.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="responsive-navbar.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="responsive-utilities.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="scaffolding.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="sprites.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="tables.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="thumbnails.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="tooltip.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="type.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="utilities.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="variables.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="wells.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        </folder>
+        <folder name="site">
+          <folder name="item-list">
+            <file name="item-cell.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="item-list-navigable.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          </folder>
+          <folder name="product-lists">
+            <file name="control.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="details.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="list-of-lists.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="menu.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          </folder>
+          <file name="accordion-icons.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="accordions.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="address.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="back-to-top.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="balance.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="base.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="breadcrumbs.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="cases.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="creditcards.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="flex.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="footer.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="form-tweeks.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="header.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="headings.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="home.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="iframe.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="image-gallery.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="invoice.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="item-details.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="list-header.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="lists.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="mini-cart.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="modals-hacks.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="my-account.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="navbar-tree.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="navbar-tweeks.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="payment-wizard.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="rating.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="reorderitems.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="reviews.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="shopping-cart.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="slider.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="text.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="tiles.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="transactions.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="variables.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          <file name="wells.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        </folder>
+        <file name="combiner.config" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="styles-sitebuilder.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="styles-sitebuilder.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="styles.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="styles.less" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      </folder>
+    </folder>
+    <folder name="ssp_libraries">
+      <file name=".jshintrc" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="Models.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="backbone.validation.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="backend.configuration.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="bignumber.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="commons.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="underscore.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    </folder>
+    <folder name="suitelets">
+      <file name="NSPostInstall.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    </folder>
+    <folder name="templates">
+      <folder name="address">
+        <folder name="macros">
+          <file name="address_form_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="address_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+        </folder>
+        <file name="address.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>address_tmpl</altTagCaption>
+        </file>
+        <file name="address_book.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>address_book_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="balance">
+        <file name="balance.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>balance_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="case_management">
+        <file name="case_detail.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>case_detail_tmpl</altTagCaption>
+        </file>
+        <file name="case_list.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>case_list_tmpl</altTagCaption>
+        </file>
+        <file name="case_new.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>case_new_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="content">
+        <file name="landing_page.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>landing_page_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="credit_memo">
+        <file name="credit_memo_details.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>credit_memo_details_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="creditcard">
+        <folder name="macros">
+          <file name="creditcard_form_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="creditcard_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="creditcard_security_number_form_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="creditcard_security_number_popover_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+        </folder>
+        <file name="creditcard.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>creditcard_tmpl</altTagCaption>
+        </file>
+        <file name="creditcards.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>creditcards_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="customer_payment">
+        <file name="customer_payment_details.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>customer_payment_details_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="deposit">
+        <file name="deposit_details.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>deposit_details_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="deposit_application">
+        <file name="deposit_application_details.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>deposit_application_details_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="footer">
+        <folder name="macros">
+          <file name="footer_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="footer_navigation.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="simplified_footer_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+        </folder>
+      </folder>
+      <folder name="globals">
+        <folder name="macros">
+          <file name="back_to_top_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="breadcrumb_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="countries_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="currencies_selector_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="display_in_rows_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="format_payment_method.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="host_selector_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="language_selector_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="message_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="modal_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="pagination_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="related_item_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="show_item_price_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="star_rating_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="states_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="tree_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+        </folder>
+        <file name="forbidden_error.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>forbidden_error_tmpl</altTagCaption>
+        </file>
+        <file name="iframe.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>iframe_tmpl</altTagCaption>
+        </file>
+        <file name="internal_error.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>internal_error_tmpl</altTagCaption>
+        </file>
+        <file name="page_not_found.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>page_not_found_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="header">
+        <folder name="macros">
+          <file name="header_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="header_profile_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="header_simple_profile_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="header_top_nav_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="logo_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="mini_cart_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="mini_cart_summary_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="navigation_tabs_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="simplified_header_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="site_search_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="typeahead_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+        </folder>
+      </folder>
+      <folder name="home">
+        <folder name="macros">
+          <file name="home_banner_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="home_payment_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="home_profile_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="home_shipping_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+        </folder>
+        <file name="home.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>home_tmpl</altTagCaption>
+        </file>
+        <file name="home_alt.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>home_alt_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="invoice">
+        <folder name="macros">
+          <file name="invoice_list_line.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="make_payment_action_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+        </folder>
+        <file name="invoice_details.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>invoice_details_tmpl</altTagCaption>
+        </file>
+        <file name="invoices_list.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>invoices_list_tmpl</altTagCaption>
+        </file>
+        <file name="open_invoices_list.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>open_invoices_list_tmpl</altTagCaption>
+        </file>
+        <file name="paid_invoices_list.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>paid_invoices_list_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="item_details">
+        <folder name="macros">
+          <file name="item_details_editable_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="item_details_line_image_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="item_details_line_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="item_details_line_product_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="item_details_option_color_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="item_details_option_dropdown_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="item_details_option_radio_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="item_details_option_text_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="item_details_option_tile_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="item_details_stock_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="item_link_name_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+        </folder>
+      </folder>
+      <folder name="list_header">
+        <file name="list_header.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>list_header_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="merchandising">
+        <folder name="macros">
+          <file name="merchandising_zone_custom_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="merchandising_zone_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+        </folder>
+      </folder>
+      <folder name="order">
+        <folder name="macros">
+          <file name="item_details_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="show_item_options_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="showing_current_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="traking_numbers_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="transactions_navigation_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+        </folder>
+        <file name="order_details.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>order_details_tmpl</altTagCaption>
+        </file>
+        <file name="order_history.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>order_history_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="order_wizard">
+        <folder name="macros">
+          <file name="wizard_step_navigation_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+        </folder>
+        <file name="order_wizard_address_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>order_wizard_address_module_tmpl</altTagCaption>
+        </file>
+        <file name="order_wizard_paymentmethod_creditcard_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>order_wizard_paymentmethod_creditcard_module_tmpl</altTagCaption>
+        </file>
+        <file name="order_wizard_showpayments_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>order_wizard_showpayments_module_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="payment_wizard">
+        <folder name="macros">
+          <file name="payment_wizard_breadcrumb_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="payment_wizard_credit_transaction_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="payment_wizard_invoice_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+        </folder>
+        <file name="payment_wizard_confirmation_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>payment_wizard_confirmation_module_tmpl</altTagCaption>
+        </file>
+        <file name="payment_wizard_confirmation_navigation_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>payment_wizard_confirmation_navigation_module_tmpl</altTagCaption>
+        </file>
+        <file name="payment_wizard_credit_transaction_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>payment_wizard_credit_transaction_module_tmpl</altTagCaption>
+        </file>
+        <file name="payment_wizard_edit_amount_layout.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>payment_wizard_edit_amount_layout_tmpl</altTagCaption>
+        </file>
+        <file name="payment_wizard_invoice_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>payment_wizard_invoice_module_tmpl</altTagCaption>
+        </file>
+        <file name="payment_wizard_invoice_summary_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>payment_wizard_invoice_summary_module_tmpl</altTagCaption>
+        </file>
+        <file name="payment_wizard_layout.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>payment_wizard_layout_tmpl</altTagCaption>
+        </file>
+        <file name="payment_wizard_show_credit_transaction_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>payment_wizard_show_credit_transaction_module_tmpl</altTagCaption>
+        </file>
+        <file name="payment_wizard_showinvoices_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>payment_wizard_showinvoices_module_tmpl</altTagCaption>
+        </file>
+        <file name="payment_wizard_showtotal_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>payment_wizard_showtotal_module_tmpl</altTagCaption>
+        </file>
+        <file name="payment_wizard_step.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>payment_wizard_step_tmpl</altTagCaption>
+        </file>
+        <file name="payment_wizard_summary_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>payment_wizard_summary_module_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="print_statement">
+        <file name="print_statement.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>print_statement_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="product_lists">
+        <folder name="macros">
+          <file name="product_list_bulk_actions_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="product_list_details_condensed_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="product_list_details_full_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="product_list_details_later_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="product_list_details_min_quantity_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="product_list_list_details_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+        </folder>
+        <file name="product_list_added_to_cart.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>product_list_added_to_cart_tmpl</altTagCaption>
+        </file>
+        <file name="product_list_control.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>product_list_control_tmpl</altTagCaption>
+        </file>
+        <file name="product_list_control_item.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>product_list_control_item_tmpl</altTagCaption>
+        </file>
+        <file name="product_list_control_new_pl.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>product_list_control_new_pl_tmpl</altTagCaption>
+        </file>
+        <file name="product_list_control_single.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>product_list_control_single_tmpl</altTagCaption>
+        </file>
+        <file name="product_list_delete_confirm.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>product_list_delete_confirm_tmpl</altTagCaption>
+        </file>
+        <file name="product_list_details.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>product_list_details_tmpl</altTagCaption>
+        </file>
+        <file name="product_list_details_later.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>product_list_details_later_tmpl</altTagCaption>
+        </file>
+        <file name="product_list_edit_item.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>product_list_edit_item_tmpl</altTagCaption>
+        </file>
+        <file name="product_list_lists.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>product_list_lists_tmpl</altTagCaption>
+        </file>
+        <file name="product_list_new.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>product_list_new_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="profile">
+        <file name="email_preferences.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>email_preferences_tmpl</altTagCaption>
+        </file>
+        <file name="profile_information.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>profile_information_tmpl</altTagCaption>
+        </file>
+        <file name="profile_update_your_password.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>profile_update_your_password_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="quote">
+        <file name="quote_details.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>quote_details_tmpl</altTagCaption>
+        </file>
+        <file name="quote_list.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>quote_list_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="receipt">
+        <file name="receipt_details.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>receipt_details_tmpl</altTagCaption>
+        </file>
+        <file name="receipt_history.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>receipt_history_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="reorder_items">
+        <folder name="macros">
+          <file name="item_actions_addtocart_reorder_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="item_actions_return_quantity_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+        </folder>
+        <file name="reorder_items.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>reorder_items_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="return_authorization">
+        <folder name="macros">
+          <file name="item_actions_edit_quantity_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="item_actions_reasons_selector_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+        </folder>
+        <file name="return_authorization_cancel.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>return_authorization_cancel_tmpl</altTagCaption>
+        </file>
+        <file name="return_authorization_confirmation.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>return_authorization_confirmation_tmpl</altTagCaption>
+        </file>
+        <file name="return_authorization_detail.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>return_authorization_detail_tmpl</altTagCaption>
+        </file>
+        <file name="return_authorization_form.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>return_authorization_form_tmpl</altTagCaption>
+        </file>
+        <file name="return_authorization_list.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>return_authorization_list_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="shopping_cart">
+        <folder name="macros">
+          <file name="shopping_cart_option_color_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+          <file name="shopping_cart_option_default_macro.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+            <altTagCaption>macro</altTagCaption>
+          </file>
+        </folder>
+      </folder>
+      <folder name="transaction_history">
+        <file name="transaction_history.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>transaction_history_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <folder name="wizard">
+        <file name="accordion_wizard.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>accordion_wizard_tmpl</altTagCaption>
+        </file>
+        <file name="wizard.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>wizard_tmpl</altTagCaption>
+        </file>
+        <file name="wizard_module.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>wizard_module_tmpl</altTagCaption>
+        </file>
+        <file name="wizard_step.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+          <altTagCaption>wizard_step_tmpl</altTagCaption>
+        </file>
+      </folder>
+      <file name="layout.txt" hideInBundle="false" isOnline="true" textFileEncoding="_utf8">
+        <altTagCaption>layout_tmpl</altTagCaption>
+      </file>
+      <file name="templates.config" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    </folder>
+    <folder name="tests">
+      <folder name="blanket">
+        <file name="blanket_custom.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="blanket_jasmine.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      </folder>
+      <folder name="jasmine">
+        <file name="jasmine-html.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="jasmine.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="jasmine.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="mock-ajax.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="typechecking-matchers.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      </folder>
+      <folder name="specs">
+        <folder name="app">
+          <folder name="Application">
+            <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            <file name="myaccount.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          </folder>
+          <folder name="modules">
+            <folder name="Address">
+              <file name="TestCasesData.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="view.details.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="view.list.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="AjaxRequestsKiller">
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="ApplicationSkeleton">
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="layout.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="BackToTop">
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Backbone.View.render">
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Case">
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="views.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Content">
+              <file name="Content.EnhancedViews.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="CreditCard">
+              <file name="TestCasesData.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="view.details.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="view.list.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="CreditMemo">
+              <file name="TestCasesData.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="view.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Deposit">
+              <file name="TestCasesData.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="views.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="DepositApplication">
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="views.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="ErrorManagement">
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="GoogleAnalytics">
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="GoogleUniversalAnalytics">
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Invoice">
+              <file name="collection.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="details.view.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="openlist.view.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="paidlist.view.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="ListHeader">
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Merchandising">
+              <file name="Context.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="Zone.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="jQueryPlugin.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="MultiHostSupport">
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="NavigationHelper">
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Order">
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="lo.order.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="PaymentWizard">
+              <file name="CreditCards.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="editAmount.view.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.Invoice.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.Summary.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="PrintStatement">
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="ProductList">
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="model.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="views.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Quote">
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="ReturnAuthorization">
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="TrackingServices">
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="TransactionHistory">
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="UrlHelper">
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Utils">
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <file name="testHelperBase.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+          </folder>
+        </folder>
+        <folder name="core">
+          <folder name="extras">
+            <folder name="MenuTree">
+              <file name="control.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+            <folder name="Underscore.templates">
+              <file name="index.html" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="index.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+              <file name="module.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+            </folder>
+          </folder>
+        </folder>
+        <file name=".jshintrc" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="SpecRunner.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="dependencies.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="require-config.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="sc.environment.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      </folder>
+    </folder>
+    <file name="current_config.json" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    <file name="download.ssp" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    <file name="global_config.json" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    <file name="index.ssp" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    <file name="sc.environment.ssp" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+  </folder>
+</project>

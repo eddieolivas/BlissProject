@@ -20,7 +20,7 @@
 		Profile = Application.getModel('Profile').get();
 		siteId = SiteSettings.siteid;
         if(SC.projectConfig.site.categories.enable && SC.projectConfig.site.categories.secure_enable) {
-            Categories = Application.getModel('Category').get();
+            Categories = {};
         }
 
 		// Check if cart bootstrapping is required

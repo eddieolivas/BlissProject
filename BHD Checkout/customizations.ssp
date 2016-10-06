@@ -1,0 +1,52 @@
+<%
+var container = nlapiGetWebContainer(),
+session = container.getShoppingSession();
+response.setContentType("JAVASCRIPT");
+%>
+
+function loadScript(data) {
+	var element;
+	
+	if (data.url) {
+	    element = '<script src="'+ data.url +'"><\\/script>';
+    } else {
+        element = '<script>'+ data.code + '<\\/script>';
+	}
+
+	if (data.seo_remove) {
+    	document.write(element);
+    } else {
+        document.write('<\\/div>'+ element +'<div class="seo-remove">');
+    }
+}
+
+function loadStylesheet(data) {
+
+    var fileref;
+    if (data.url) {
+
+        fileref = document.createElement("link");
+        fileref.setAttribute("rel", "stylesheet");
+        fileref.setAttribute("type", "text/css");
+        fileref.setAttribute("href", data.url);
+    }
+
+    if (data.seo_remove && fileref != null) {
+        document.getElementsByTagName("head")[0].appendChild(fileref);
+    }
+}
+
+loadScript({
+    url: '/BHDCheckout/templates/Templates-014aca106d0b.js',
+    seo_remove: true
+    });
+
+loadScript({
+    url: '/BHDCheckout/js/Application-01471ae1c632.js',
+    seo_remove: true
+});
+
+loadStylesheet({
+    url: '/BHDCheckout/css/Customizations-01491046d313.css',
+    seo_remove: true
+});

@@ -1,0 +1,21 @@
+<project info="SuiteCloud IDE generated file, do not edit." setAttributesOnUpdate="false">
+  <folder name="Custom My Account Premium">
+    <folder name="js">
+      <file name="Application-014ef5bc3f1f.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="combiner.config" hideInBundle="false" isOnline="false" textFileEncoding="_utf8"/>
+      <file name="current.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    </folder>
+    <folder name="skins">
+      <folder name="standard">
+        <file name="Styles-014ef5bc727e.css" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+        <file name="combiner.config" hideInBundle="false" isOnline="false" textFileEncoding="_utf8"/>
+        <file name="current-css.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      </folder>
+    </folder>
+    <folder name="templates">
+      <file name="Templates-014ef5bc2777.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="current.js" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+      <file name="templates.config" hideInBundle="false" isOnline="false" textFileEncoding="_utf8"/>
+    </folder>
+  </folder>
+</project>

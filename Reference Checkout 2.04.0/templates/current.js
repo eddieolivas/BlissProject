@@ -1,0 +1,1 @@
+BDQ.currentTemplatesUrl = '/Web Site Hosting Files/Live Hosting Files/SSP Applications/Bliss Reference/Reference Checkout 2.04.0/templates/Templates-0153f478bdc9.js';
